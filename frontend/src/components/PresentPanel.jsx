@@ -1,6 +1,6 @@
 /**
  * PresentPanel.jsx — Center column: WHAT THEY ARE SEEING
- * Clean reel viewer with exact details, real interactions, and clean detected interest tag.
+ * Clean reel viewer with simulated video screen, real interactions, and clean detected interest tag.
  */
 import React, { useState, useEffect } from "react";
 
@@ -78,6 +78,30 @@ export default function PresentPanel({ reel, onInteract, recommendation, loading
       <div className="present-body">
         {/* Reel Content Card */}
         <div className="reel-display">
+          {/* Simulated Screen / Video Canvas */}
+          <div className="reel-screen">
+            <div className="reel-screen-dots">
+              <span style={{ background: "#f43f5e" }} />
+              <span style={{ background: "#f59e0b" }} />
+              <span style={{ background: "#22c55e" }} />
+              <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 6 }}>
+                <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#00d4ff", boxShadow: "0 0 8px #00d4ff" }} />
+                <span style={{ fontSize: "0.62rem", color: "var(--cyan)", fontFamily: "var(--mono)", fontWeight: 700 }}>
+                  SIMULATED REEL · {Math.round(watchProgress)}%
+                </span>
+              </div>
+            </div>
+
+            <div style={{ margin: "auto 0", padding: "10px 0" }}>
+              <div style={{ fontSize: "1.1rem", fontWeight: 800, color: "#ffffff", lineHeight: 1.35, marginBottom: 8 }}>
+                {reel.title}
+              </div>
+              <div style={{ fontSize: "0.76rem", color: "var(--text-dim)", lineHeight: 1.5 }}>
+                {reel.transcript || reel.caption || "Educational short-form technology reel analyzing architecture, algorithms, and practical implementation."}
+              </div>
+            </div>
+          </div>
+
           {/* Watch Progress Bar */}
           <div className="progress-bar">
             <div className="progress-fill" style={{ width: `${watchProgress}%` }} />
@@ -86,24 +110,15 @@ export default function PresentPanel({ reel, onInteract, recommendation, loading
           <div className="reel-bottom">
             {/* Creator info */}
             <div className="reel-creator">
-              {reel.creator?.creator_name || reel.creator_id || "Creator"}
+              <div style={{ width: 22, height: 22, borderRadius: 6, background: "var(--neu-convex)", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--cyan)", fontSize: "0.7rem", fontWeight: 800 }}>
+                {(reel.creator?.creator_name || "C")[0]}
+              </div>
+              <span>{reel.creator?.creator_name || reel.creator_id || "Creator"}</span>
               <span>@{reel.creator?.handle || reel.creator_id} · {duration}s</span>
             </div>
 
-            {/* Reel Title */}
-            <div className="reel-title-text" style={{ fontSize: "0.95rem", fontWeight: 700, margin: "6px 0" }}>
-              {reel.title}
-            </div>
-
-            {/* Transcript or Caption */}
-            {(reel.transcript || reel.caption) && (
-              <div className="reel-desc" style={{ fontSize: "0.75rem", color: "var(--text-dim)", marginBottom: 8 }}>
-                {reel.transcript || reel.caption}
-              </div>
-            )}
-
             {/* Metadata Tags */}
-            <div className="reel-tags">
+            <div className="tag-row">
               <span className="tag tag-lang">{contentLang}</span>
               {progLangs.map((pl) => (
                 <span key={pl} className="tag tag-tech">{pl}</span>
@@ -118,8 +133,8 @@ export default function PresentPanel({ reel, onInteract, recommendation, loading
 
             {/* OCR On-Screen Text if present */}
             {reel.ocr_text && (
-              <div style={{ marginTop: 8, padding: "6px 8px", background: "rgba(0,0,0,0.35)", borderRadius: 6, fontSize: "0.68rem", fontFamily: "var(--mono)", color: "var(--cyan)" }}>
-                <span style={{ color: "var(--text-muted)", fontSize: "0.6rem", textTransform: "uppercase" }}>OCR: </span>
+              <div style={{ marginTop: 10, padding: "8px 10px", background: "rgba(0,0,0,0.45)", borderRadius: 8, fontSize: "0.7rem", fontFamily: "var(--mono)", color: "var(--cyan)", border: "1px solid rgba(0, 212, 255, 0.15)" }}>
+                <span style={{ color: "var(--text-muted)", fontSize: "0.62rem", textTransform: "uppercase", fontWeight: 700 }}>OCR Text: </span>
                 {reel.ocr_text}
               </div>
             )}
@@ -179,25 +194,18 @@ export default function PresentPanel({ reel, onInteract, recommendation, loading
           </button>
         </div>
 
-        {/* Inferred Interest Badge */}
+        {/* AI Latent Interest Inference Card */}
         {recommendation && !loading && (
-          <div
-            style={{
-              padding: "10px 14px",
-              background: "var(--surface)",
-              border: "1px solid var(--border)",
-              borderRadius: 10,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "space-between"
-            }}
-          >
-            <span style={{ fontSize: "0.68rem", fontFamily: "var(--mono)", color: "var(--text-muted)", textTransform: "uppercase" }}>
-              Inferred Interest:
-            </span>
-            <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "var(--cyan)" }}>
+          <div className="analysis-card">
+            <div className="analysis-title">
+              🧠 AI Latent Interest Inference
+            </div>
+            <div className="analysis-interest">
               {recommendation.interest_detected}
-            </span>
+            </div>
+            <div className="analysis-evidence">
+              {recommendation.why_recommendation || "Inferred from cumulative watch-time, engagement signals, and underlying concept relationships."}
+            </div>
           </div>
         )}
       </div>

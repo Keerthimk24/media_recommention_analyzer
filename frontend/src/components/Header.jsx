@@ -1,5 +1,5 @@
 /**
- * Header.jsx — Minimal top bar
+ * Header.jsx — Minimal top bar with Neu-Glass aesthetics
  */
 import React from "react";
 
@@ -8,18 +8,23 @@ export default function Header({ users, selectedUserId, currentUser, onSelectUse
     <div className="topbar">
       <div className="topbar-brand">
         <div className="brand-icon">⚡</div>
-        <span className="brand-name">AI Reels Agent</span>
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <span className="brand-name">AI Reels Agent</span>
+          <span style={{ fontSize: "0.62rem", color: "var(--text-muted)", fontFamily: "var(--mono)", letterSpacing: "0.4px" }}>
+            Latent Interest & Tech Recommender
+          </span>
+        </div>
       </div>
 
       <div className="topbar-nav">
         <button className={`nav-btn ${activeTab === "feed" ? "active" : ""}`} onClick={() => setActiveTab("feed")}>
-          Timeline
+          <span style={{ fontSize: "0.85rem" }}>⏱</span> Timeline
         </button>
         <button className={`nav-btn ${activeTab === "graph" ? "active" : ""}`} onClick={() => setActiveTab("graph")}>
-          Interest Graph
+          <span style={{ fontSize: "0.85rem" }}>🕸</span> Interest Graph
         </button>
         <button className={`nav-btn ${activeTab === "traps" ? "active" : ""}`} onClick={() => setActiveTab("traps")}>
-          Trap Lab
+          <span style={{ fontSize: "0.85rem" }}>🎯</span> Trap Lab
         </button>
       </div>
 
@@ -45,10 +50,11 @@ export default function Header({ users, selectedUserId, currentUser, onSelectUse
         </select>
 
         <span className={`conf-badge ${confidence === "High" ? "high" : confidence === "Medium" ? "medium" : "low"}`}>
-          {confidence || "Low"}
+          ● {confidence || "Low"} Conf
         </span>
 
         <button className="db-btn" onClick={onOpenSupabaseModal}>
+          <span style={{ color: supabaseStatus?.is_connected ? "#4ade80" : "var(--text-muted)", marginRight: 4 }}>●</span>
           {supabaseStatus?.is_connected ? "DB Live" : "DB"}
         </button>
       </div>
