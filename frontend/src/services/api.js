@@ -3,7 +3,11 @@
  * API client to interact with the FastAPI recommender backend.
  */
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE =
+  import.meta.env.VITE_API_BASE ||
+  (typeof window !== "undefined" && window.location.hostname === "localhost" && window.location.port === "5173"
+    ? "http://localhost:8000/api"
+    : "/api");
 
 export async function checkHealth() {
   const res = await fetch(`${API_BASE}/health`);
