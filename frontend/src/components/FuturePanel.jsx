@@ -1,6 +1,7 @@
 /**
  * FuturePanel.jsx — Right column: WHAT THEY WILL SEE
  * Clear, distinct queue of what tech reels the student will see next.
+ * Accessible markup, semantic hierarchy, and interactive pedagogical feedback loop.
  */
 import React, { useState } from "react";
 
@@ -25,32 +26,38 @@ export default function FuturePanel({ recommendation, onFeedback, loading, progr
   };
 
   return (
-    <div className="future-col">
+    <section className="future-col" aria-label="Upcoming Technology Recommendations">
       <div className="col-header">
-        <span className="col-label future">WHAT THEY WILL SEE (RECOMMENDATIONS)</span>
+        <h2 className="col-label future" style={{ margin: 0, fontSize: "0.7rem" }}>
+          WHAT THEY WILL SEE (RECOMMENDATIONS)
+        </h2>
       </div>
 
       <div className="future-body">
         {/* Learning Journey Progression Track */}
-        <div className="journey-strip">
-          {STAGES.map(([num, name], i) => (
-            <React.Fragment key={num}>
-              {i > 0 && <span className="journey-arrow">›</span>}
-              <span
-                className={`journey-step ${
-                  num < currentStageNum ? "done" : num === currentStageNum ? "now" : "later"
-                }`}
-              >
-                {num < currentStageNum ? "✓ " : ""}
-                {name}
-              </span>
-            </React.Fragment>
-          ))}
-        </div>
+        <nav className="journey-strip" aria-label="Pedagogical Learning Progression Stages">
+          {STAGES.map(([num, name], i) => {
+            const isDone = num < currentStageNum;
+            const isNow = num === currentStageNum;
+            return (
+              <React.Fragment key={num}>
+                {i > 0 && <span className="journey-arrow" aria-hidden="true">›</span>}
+                <span
+                  className={`journey-step ${isDone ? "done" : isNow ? "now" : "later"}`}
+                  aria-current={isNow ? "step" : undefined}
+                  aria-label={`Stage ${num}: ${name} ${isDone ? "(Completed)" : isNow ? "(Current)" : "(Upcoming)"}`}
+                >
+                  {isDone ? "✓ " : ""}
+                  {name}
+                </span>
+              </React.Fragment>
+            );
+          })}
+        </nav>
 
         {/* Loading state */}
         {loading || !recommendation ? (
-          <div className="rec-card" style={{ padding: 24, textAlign: "center" }}>
+          <div className="rec-card" style={{ padding: 24, textAlign: "center" }} aria-live="polite">
             <div style={{ fontSize: "0.85rem", color: "var(--text-dim)" }}>
               Loading recommended reels...
             </div>
@@ -58,9 +65,9 @@ export default function FuturePanel({ recommendation, onFeedback, loading, progr
         ) : (
           <>
             {/* Primary #1 Recommendation */}
-            <div className="rec-card fade-in">
+            <article className="rec-card fade-in" aria-label={`Primary Recommendation: ${recommendation.recommended_title}`}>
               <div className="rec-card-header">
-                <span className="rec-card-label" style={{ color: "var(--cyan)", fontWeight: 700 }}>
+                <span className="rec-card-label" style={{ color: "var(--cyan)", fontWeight: 800 }}>
                   #1 Up Next (Primary Recommendation)
                 </span>
                 <span
@@ -71,6 +78,7 @@ export default function FuturePanel({ recommendation, onFeedback, loading, progr
                       ? "medium"
                       : "low"
                   }`}
+                  aria-label={`Confidence: ${recommendation.confidence}`}
                 >
                   {recommendation.confidence} Confidence
                 </span>
@@ -78,18 +86,18 @@ export default function FuturePanel({ recommendation, onFeedback, loading, progr
 
               <div className="rec-card-body">
                 {/* Title */}
-                <div
+                <h3
                   className="rec-title"
                   style={{
-                    fontSize: "1.05rem",
-                    fontWeight: 700,
+                    fontSize: "1.08rem",
+                    fontWeight: 800,
                     color: "#ffffff",
                     marginBottom: 8,
-                    lineHeight: 1.3
+                    lineHeight: 1.35
                   }}
                 >
                   {recommendation.recommended_title}
-                </div>
+                </h3>
 
                 {/* Category & Difficulty */}
                 <div className="rec-meta" style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 10 }}>
@@ -100,61 +108,70 @@ export default function FuturePanel({ recommendation, onFeedback, loading, progr
                 {/* Quick Feedback Actions */}
                 <div
                   className="feedback-section"
-                  style={{ borderTop: "1px solid var(--border)", paddingTop: 10, marginTop: 10 }}
+                  role="group"
+                  aria-label="Recommendation Feedback Actions"
+                  style={{ borderTop: "1px solid var(--glass-border)", paddingTop: 10, marginTop: 10 }}
                 >
                   <div className="feedback-row">
-                    <button className="fb-btn" onClick={() => doFeedback("useful", recommendation.interest_detected)}>
+                    <button
+                      className="fb-btn"
+                      aria-label="Mark recommendation as useful"
+                      onClick={() => doFeedback("useful", recommendation.interest_detected)}
+                    >
                       👍 Useful
                     </button>
-                    <button className="fb-btn" onClick={() => doFeedback("not_useful", recommendation.interest_detected)}>
+                    <button
+                      className="fb-btn"
+                      aria-label="Mark recommendation as not useful"
+                      onClick={() => doFeedback("not_useful", recommendation.interest_detected)}
+                    >
                       👎 Not useful
                     </button>
-                    <button className="fb-btn" onClick={() => doFeedback("more_like_this", recommendation.category)}>
+                    <button
+                      className="fb-btn"
+                      aria-label="Request more reels like this topic"
+                      onClick={() => doFeedback("more_like_this", recommendation.category)}
+                    >
                       🔥 More of this
                     </button>
-                    <button className="fb-btn" onClick={() => doFeedback("dont_show_topic", recommendation.interest_detected)}>
+                    <button
+                      className="fb-btn"
+                      aria-label="Block this topic from feed"
+                      onClick={() => doFeedback("dont_show_topic", recommendation.interest_detected)}
+                    >
                       🚫 Block topic
                     </button>
                   </div>
                   {fbSuccess && (
-                    <div style={{ marginTop: 6, fontSize: "0.68rem", color: "#4ade80" }}>
-                      ✓ Updated recommendations
+                    <div style={{ marginTop: 6, fontSize: "0.7rem", color: "#34d399", fontWeight: 700 }} aria-live="polite">
+                      ✓ Preferences updated in real-time
                     </div>
                   )}
                 </div>
               </div>
-            </div>
+            </article>
 
-            {/* Upcoming Queue in Feed (#2, #3, #4) */}
+            {/* Upcoming Queue in Feed (#2, #3, #4, #5) */}
             {recommendation.ranked_alternatives?.length > 0 && (
-              <div className="alt-list" style={{ marginTop: 14 }}>
-                <div
+              <div className="alt-list" style={{ marginTop: 14 }} aria-label="Upcoming Queue in Feed">
+                <h4
                   style={{
-                    fontSize: "0.68rem",
+                    fontSize: "0.7rem",
                     fontFamily: "var(--mono)",
                     color: "var(--text-dim)",
                     textTransform: "uppercase",
                     letterSpacing: "0.6px",
                     marginBottom: 8,
-                    fontWeight: 700
+                    fontWeight: 800
                   }}
                 >
                   Upcoming Next in Queue
-                </div>
+                </h4>
                 {recommendation.ranked_alternatives.slice(0, 4).map((alt, i) => (
-                  <div
+                  <article
                     key={i}
                     className="alt-item"
-                    style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      gap: 4,
-                      padding: "10px 12px",
-                      background: "var(--surface)",
-                      border: "1px solid var(--border)",
-                      borderRadius: 10,
-                      marginBottom: 8
-                    }}
+                    aria-label={`Queue #${i + 2}: ${alt.title}`}
                   >
                     <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                       <span
@@ -162,46 +179,36 @@ export default function FuturePanel({ recommendation, onFeedback, loading, progr
                         style={{
                           color: "var(--cyan)",
                           fontFamily: "var(--mono)",
-                          fontSize: "0.72rem",
-                          fontWeight: 700
+                          fontSize: "0.74rem",
+                          fontWeight: 800
                         }}
                       >
                         #{i + 2} Next in Feed
                       </span>
                       <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
-                        <span className="cat-badge" data-cat={alt.category} style={{ fontSize: "0.62rem", padding: "1px 6px" }}>
+                        <span className="cat-badge" data-cat={alt.category} style={{ fontSize: "0.64rem", padding: "2px 7px" }}>
                           {alt.category}
                         </span>
-                        <span className="diff-badge" style={{ fontSize: "0.62rem" }}>
+                        <span className="diff-badge" style={{ fontSize: "0.66rem" }}>
                           {alt.difficulty}
                         </span>
                       </div>
                     </div>
-                    <div
-                      className="alt-title"
-                      style={{ fontSize: "0.85rem", fontWeight: 700, color: "#ffffff", lineHeight: 1.3 }}
-                    >
+                    <div style={{ fontSize: "0.85rem", fontWeight: 700, color: "#ffffff", lineHeight: 1.3 }}>
                       {alt.title}
                     </div>
                     {alt.summary && (
-                      <div
-                        style={{
-                          fontSize: "0.72rem",
-                          color: "var(--text-dim)",
-                          lineHeight: 1.4,
-                          marginTop: 2
-                        }}
-                      >
+                      <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: 2 }}>
                         {alt.summary}
                       </div>
                     )}
-                  </div>
+                  </article>
                 ))}
               </div>
             )}
           </>
         )}
       </div>
-    </div>
+    </section>
   );
 }

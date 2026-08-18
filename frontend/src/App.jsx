@@ -120,7 +120,7 @@ export default function App() {
   const progressionStage = currentUserProfile?.progression_stage || [1, "Basics"];
 
   return (
-    <div className="app">
+    <div className="app" role="application" aria-label="AI Reels Interest Inference & Recommendation System">
       <Header
         users={users}
         selectedUserId={selectedUserId}
@@ -133,45 +133,51 @@ export default function App() {
         setActiveTab={setActiveTab}
       />
 
-      {activeTab === "feed" && (
-        <div className="main-content">
-          <HistoryPanel
-            reels={historyReels}
-            activeIndex={currentReelIndex}
-            onSelect={handleReelSelect}
-          />
-          <PresentPanel
-            reel={currentReel}
-            onInteract={handleInteract}
-            recommendation={recommendation}
-            loading={recLoading}
-          />
-          <FuturePanel
-            recommendation={recommendation}
-            onFeedback={handleFeedback}
-            loading={recLoading}
-            progressionStage={progressionStage}
-          />
-        </div>
-      )}
+      <main className="app-main" id="main-content">
+        {activeTab === "feed" && (
+          <section className="main-content" aria-label="Reel Timeline, Viewer, and Recommendations" role="tabpanel" id="tabpanel-feed">
+            <HistoryPanel
+              reels={historyReels}
+              activeIndex={currentReelIndex}
+              onSelect={handleReelSelect}
+            />
+            <PresentPanel
+              reel={currentReel}
+              onInteract={handleInteract}
+              recommendation={recommendation}
+              loading={recLoading}
+            />
+            <FuturePanel
+              recommendation={recommendation}
+              onFeedback={handleFeedback}
+              loading={recLoading}
+              progressionStage={progressionStage}
+            />
+          </section>
+        )}
 
-      {activeTab === "graph" && (
-        <InterestGraphView
-          graphData={graphData}
-          selectedUserId={selectedUserId}
-          currentUser={currentUserProfile?.user}
-          users={users}
-          onSelectUser={(uid) => setSelectedUserId(uid)}
-          onRefresh={async () => {
-            const g = await fetchUserGraph(selectedUserId);
-            setGraphData(g);
-          }}
-        />
-      )}
+        {activeTab === "graph" && (
+          <section className="graph-tab-wrap" aria-label="Interactive Latent Interest Graph" role="tabpanel" id="tabpanel-graph">
+            <InterestGraphView
+              graphData={graphData}
+              selectedUserId={selectedUserId}
+              currentUser={currentUserProfile?.user}
+              users={users}
+              onSelectUser={(uid) => setSelectedUserId(uid)}
+              onRefresh={async () => {
+                const g = await fetchUserGraph(selectedUserId);
+                setGraphData(g);
+              }}
+            />
+          </section>
+        )}
 
-      {activeTab === "traps" && (
-        <TrapTester onSelectTrapUser={(id) => { setSelectedUserId(id); setActiveTab("feed"); }} />
-      )}
+        {activeTab === "traps" && (
+          <section className="traps-tab-wrap" aria-label="Anti-Trap Adversarial Evaluation Benchmark" role="tabpanel" id="tabpanel-traps">
+            <TrapTester onSelectTrapUser={(id) => { setSelectedUserId(id); setActiveTab("feed"); }} />
+          </section>
+        )}
+      </main>
 
       <SupabaseModal
         isOpen={isSupabaseModalOpen}

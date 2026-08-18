@@ -1,7 +1,7 @@
 /**
  * HistoryPanel.jsx — Left column: WHAT THEY SAW
  * Complete chronological history of watched reels with interactive filters,
- * watch percentage indicators, and interaction signals.
+ * watch percentage indicators, keyboard accessibility, and semantic markup.
  */
 import React, { useState } from "react";
 
@@ -18,30 +18,40 @@ export default function HistoryPanel({ reels = [], activeIndex, onSelect }) {
   });
 
   return (
-    <div className="history-col">
+    <aside className="history-col" aria-label="Viewing History Timeline">
       <div className="col-header" style={{ flexDirection: "column", alignItems: "flex-start", gap: 6 }}>
         <div style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center" }}>
-          <span className="col-label past">WHAT THEY HAVE SEEN</span>
-          <span className="col-count">{reels.length} watched</span>
+          <h2 className="col-label past" style={{ margin: 0, fontSize: "0.7rem" }}>
+            WHAT THEY HAVE SEEN
+          </h2>
+          <span className="col-count" aria-label={`${reels.length} reels watched`}>
+            {reels.length} watched
+          </span>
         </div>
 
         {/* Quick Filter Chips */}
-        <div style={{ display: "flex", gap: 4, width: "100%", marginTop: 2 }}>
+        <div
+          role="group"
+          aria-label="Filter watched reels by engagement"
+          style={{ display: "flex", gap: 4, width: "100%", marginTop: 2 }}
+        >
           {["all", "liked", "saved", "skipped"].map((f) => (
             <button
               key={f}
               onClick={() => setFilter(f)}
+              aria-pressed={filter === f}
+              aria-label={`Filter by ${f} reels`}
               style={{
-                fontSize: "0.62rem",
-                padding: "2px 7px",
-                borderRadius: 4,
-                border: "1px solid var(--border)",
-                background: filter === f ? "rgba(56, 189, 248, 0.15)" : "transparent",
-                color: filter === f ? "var(--cyan)" : "var(--text-muted)",
+                fontSize: "0.64rem",
+                padding: "3px 8px",
+                borderRadius: 6,
+                border: "1px solid var(--glass-border)",
+                background: filter === f ? "rgba(0, 212, 255, 0.2)" : "rgba(255, 255, 255, 0.05)",
+                color: filter === f ? "#ffffff" : "var(--text-muted)",
                 cursor: "pointer",
                 textTransform: "capitalize",
                 fontFamily: "var(--mono)",
-                fontWeight: filter === f ? 700 : 500
+                fontWeight: filter === f ? 800 : 600
               }}
             >
               {f === "all" ? `All (${reels.length})` : f}
@@ -50,7 +60,12 @@ export default function HistoryPanel({ reels = [], activeIndex, onSelect }) {
         </div>
       </div>
 
-      <div className="history-list">
+      <div
+        className="history-list"
+        role="feed"
+        aria-label="Watched Reels List"
+        tabIndex={0}
+      >
         {filteredReels.length === 0 ? (
           <div style={{ padding: 20, textAlign: "center", color: "var(--text-muted)", fontSize: "0.78rem" }}>
             No reels found for this filter.
@@ -58,6 +73,7 @@ export default function HistoryPanel({ reels = [], activeIndex, onSelect }) {
         ) : (
           filteredReels.map((reel) => {
             const originalIndex = reel._index !== undefined ? reel._index : reels.indexOf(reel);
+            const isActive = originalIndex === activeIndex;
             const inter = reel._user_interaction;
             const liked = inter && parseInt(inter.liked) === 1;
             const saved = inter && parseInt(inter.saved) === 1;
@@ -67,17 +83,27 @@ export default function HistoryPanel({ reels = [], activeIndex, onSelect }) {
             const progLang = reel.programming_languages ? reel.programming_languages.split("|")[0] : null;
 
             return (
-              <div
+              <article
                 key={reel.reel_id || originalIndex}
-                className={`history-item ${originalIndex === activeIndex ? "active" : ""}`}
+                className={`history-item ${isActive ? "active" : ""}`}
                 onClick={() => onSelect(originalIndex)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    onSelect(originalIndex);
+                  }
+                }}
+                tabIndex={0}
+                role="button"
+                aria-pressed={isActive}
+                aria-label={`Reel ${originalIndex + 1}: ${reel.title}`}
               >
-                <div className="history-index">{originalIndex + 1}</div>
+                <div className="history-index" aria-hidden="true">{originalIndex + 1}</div>
                 <div className="history-info">
                   <div className="history-title">{reel.title}</div>
                   <div className="history-meta">
                     {reel.creator?.creator_name || reel.creator_id || "Creator"} · {reel.duration_seconds || 30}s
-                    {progLang && <span style={{ marginLeft: 6, color: "#38bdf8" }}>[{progLang}]</span>}
+                    {progLang && <span style={{ marginLeft: 6, color: "var(--cyan)" }}>[{progLang}]</span>}
                   </div>
 
                   {/* Interaction Badges & Watch Progress */}
@@ -87,7 +113,7 @@ export default function HistoryPanel({ reels = [], activeIndex, onSelect }) {
                         className={`signal-dot ${
                           watchPct >= 80 ? "positive" : watchPct <= 30 ? "negative" : ""
                         }`}
-                        title="Watch percentage"
+                        aria-label={`Watched ${watchPct} percent`}
                       >
                         {watchPct}% watched
                       </span>
@@ -98,11 +124,11 @@ export default function HistoryPanel({ reels = [], activeIndex, onSelect }) {
                     {skipped && <span className="signal-dot negative">Skipped</span>}
                   </div>
                 </div>
-              </div>
+              </article>
             );
           })
         )}
       </div>
-    </div>
+    </aside>
   );
 }
