@@ -1,0 +1,504 @@
+user_id,true_primary_interest,true_secondary_interest,true_language_preference,true_skill_level
+U000001,AI / Machine Learning,Deep Learning,Telugu,Beginner
+U000002,Mixed Technology Interests,Java,Telugu,Advanced
+U000003,Frontend / Web Development,JavaScript,English,Intermediate
+U000004,Entertainment,Comedy,English,Intermediate
+U000005,Backend Engineering,System Design,Hindi,Beginner
+U000006,Mixed Technology Interests,Career,Malayalam,Intermediate
+U000007,Mixed Technology Interests,Career,English,Advanced
+U000008,Entertainment,Movies,English,Intermediate
+U000009,Entertainment,Movies,Telugu,Intermediate
+U000010,Entertainment,Movies,Malayalam,Intermediate
+U000011,Cybersecurity,Linux,Telugu,Advanced
+U000012,Backend Engineering,entertainment,English,Intermediate
+U000013,Hardware / Developer Gear,GPUs,English,Advanced
+U000014,AI / Machine Learning,Deep Learning,English,Intermediate
+U000015,Mixed Technology Interests,Java,Telugu,Advanced
+U000016,Mixed Technology Interests,DSA,Telugu,Beginner
+U000017,Hardware / Developer Gear,Gaming,Tamil,Beginner
+U000018,AI / Machine Learning,Deep Learning,Kannada,Advanced
+U000019,Hardware / Developer Gear,GPUs,English,Intermediate
+U000020,Hardware / Developer Gear,CPUs,English,Advanced
+U000021,Frontend / Web Development,Web Development,English,Beginner
+U000022,Mixed Technology Interests,Python,Hindi,Beginner
+U000023,AI / Machine Learning,Generative AI,Telugu,Beginner
+U000024,Backend Engineering,Java,Telugu,Beginner
+U000025,Backend Engineering,Java,English,Advanced
+U000026,Cybersecurity,Python,Telugu,Beginner
+U000027,Mixed Technology Interests,AI/ML,English,Beginner
+U000028,Backend Engineering,AWS,English,Beginner
+U000029,AI / Machine Learning,AI/ML,English,Beginner
+U000030,Mixed Technology Interests,Cybersecurity,Kannada,Beginner
+U000031,Mixed Technology Interests,Python,Kannada,Beginner
+U000032,Cybersecurity,Python,Tamil,Beginner
+U000033,Hardware / Developer Gear,Hardware,English,Intermediate
+U000034,Backend Engineering,Docker,Hindi,Intermediate
+U000035,AI / Machine Learning,Deep Learning,Hindi,Intermediate
+U000036,Entertainment,Sports,English,Intermediate
+U000037,Hardware / Developer Gear,Laptops,English,Intermediate
+U000038,AI / Machine Learning,Python,English,Intermediate
+U000039,AI / Machine Learning,Deep Learning,Telugu,Beginner
+U000040,Mixed Technology Interests,Python,Bengali,Advanced
+U000041,Mixed Technology Interests,Career,Malayalam,Beginner
+U000042,AI / Machine Learning,AI/ML,Hindi,Intermediate
+U000043,Frontend / Web Development,UI/UX,English,Advanced
+U000044,Entertainment,Comedy,English,Intermediate
+U000045,Mixed Technology Interests,Career,Hindi,Intermediate
+U000046,Mixed Technology Interests,Java,English,Beginner
+U000047,Frontend / Web Development,UI/UX,Telugu,Beginner
+U000048,AI / Machine Learning,Python,Telugu,Beginner
+U000049,Frontend / Web Development,React,English,Intermediate
+U000050,Backend Engineering,Java,Malayalam,Intermediate
+U000051,Mixed Technology Interests,Career,Telugu,Beginner
+U000052,AI / Machine Learning,Python,Telugu,Advanced
+U000053,Backend Engineering,entertainment,Bengali,Beginner
+U000054,AI / Machine Learning,Python,English,Beginner
+U000055,Mixed Technology Interests,Cybersecurity,English,Beginner
+U000056,Frontend / Web Development,React,English,Intermediate
+U000057,Frontend / Web Development,TypeScript,Kannada,Beginner
+U000058,Frontend / Web Development,UI/UX,English,Intermediate
+U000059,Backend Engineering,Java,Hindi,Intermediate
+U000060,AI / Machine Learning,AI/ML,English,Beginner
+U000061,AI / Machine Learning,AI/ML,Hindi,Advanced
+U000062,AI / Machine Learning,AI/ML,Hindi,Beginner
+U000063,Cybersecurity,Linux,English,Beginner
+U000064,Mixed Technology Interests,Career,Tamil,Advanced
+U000065,Mixed Technology Interests,AI/ML,English,Beginner
+U000066,Mixed Technology Interests,Career,English,Intermediate
+U000067,Cybersecurity,Linux,Kannada,Intermediate
+U000068,Mixed Technology Interests,Java,Telugu,Advanced
+U000069,Entertainment,Movies,English,Beginner
+U000070,Mixed Technology Interests,DSA,English,Beginner
+U000071,Hardware / Developer Gear,AI/ML,Telugu,Advanced
+U000072,Backend Engineering,REST,English,Beginner
+U000073,Frontend / Web Development,UI/UX,Telugu,Advanced
+U000074,Entertainment,Movies,Telugu,Intermediate
+U000075,Backend Engineering,Spring Boot,Malayalam,Intermediate
+U000076,AI / Machine Learning,Python,Telugu,Intermediate
+U000077,AI / Machine Learning,TensorFlow,Hindi,Intermediate
+U000078,AI / Machine Learning,AI/ML,Telugu,Intermediate
+U000079,Frontend / Web Development,JavaScript,Tamil,Intermediate
+U000080,Entertainment,Comedy,Telugu,Intermediate
+U000081,Backend Engineering,Spring Boot,Tamil,Intermediate
+U000082,Frontend / Web Development,TypeScript,Tamil,Intermediate
+U000083,AI / Machine Learning,Python,Telugu,Advanced
+U000084,Backend Engineering,Spring Boot,Bengali,Beginner
+U000085,Cybersecurity,Networking,Tamil,Intermediate
+U000086,AI / Machine Learning,Deep Learning,Malayalam,Intermediate
+U000087,Cybersecurity,Python,English,Beginner
+U000088,Cybersecurity,Cybersecurity,Bengali,Beginner
+U000089,Mixed Technology Interests,Python,English,Intermediate
+U000090,Mixed Technology Interests,AI/ML,Hindi,Intermediate
+U000091,Frontend / Web Development,JavaScript,Tamil,Intermediate
+U000092,Mixed Technology Interests,Java,Telugu,Beginner
+U000093,AI / Machine Learning,Python,Telugu,Intermediate
+U000094,Mixed Technology Interests,DSA,English,Beginner
+U000095,Frontend / Web Development,React,Tamil,Beginner
+U000096,Backend Engineering,System Design,English,Beginner
+U000097,AI / Machine Learning,Deep Learning,Hindi,Intermediate
+U000098,Backend Engineering,Spring Boot,Malayalam,Intermediate
+U000099,Frontend / Web Development,entertainment,Hindi,Beginner
+U000100,Backend Engineering,Spring Boot,Tamil,Beginner
+U000101,Mixed Technology Interests,DSA,Hindi,Beginner
+U000102,Entertainment,Sports,English,Beginner
+U000103,Cybersecurity,Cybersecurity,English,Intermediate
+U000104,Frontend / Web Development,JavaScript,Tamil,Intermediate
+U000105,Frontend / Web Development,TypeScript,Kannada,Beginner
+U000106,Backend Engineering,Spring Boot,English,Advanced
+U000107,Cybersecurity,Linux,Kannada,Beginner
+U000108,Entertainment,Movies,Kannada,Advanced
+U000109,AI / Machine Learning,entertainment,Kannada,Beginner
+U000110,Entertainment,Movies,Kannada,Intermediate
+U000111,Cybersecurity,entertainment,English,Beginner
+U000112,AI / Machine Learning,Python,English,Intermediate
+U000113,Hardware / Developer Gear,GPUs,English,Intermediate
+U000114,Cybersecurity,Linux,Telugu,Intermediate
+U000115,Backend Engineering,REST,Hindi,Beginner
+U000116,Frontend / Web Development,React,English,Advanced
+U000117,Cybersecurity,Python,English,Advanced
+U000118,Hardware / Developer Gear,CPUs,English,Beginner
+U000119,Frontend / Web Development,UI/UX,Hindi,Intermediate
+U000120,Backend Engineering,Java,Hindi,Advanced
+U000121,Frontend / Web Development,CSS,Telugu,Beginner
+U000122,Mixed Technology Interests,Career,Bengali,Intermediate
+U000123,Mixed Technology Interests,Java,Hindi,Beginner
+U000124,Cybersecurity,Python,English,Advanced
+U000125,Frontend / Web Development,React,Hindi,Beginner
+U000126,AI / Machine Learning,AI/ML,English,Intermediate
+U000127,Mixed Technology Interests,AI/ML,Tamil,Intermediate
+U000128,AI / Machine Learning,Python,Kannada,Intermediate
+U000129,Entertainment,Gaming,English,Intermediate
+U000130,Hardware / Developer Gear,entertainment,English,Beginner
+U000131,Mixed Technology Interests,Java,Kannada,Intermediate
+U000132,Frontend / Web Development,CSS,Telugu,Beginner
+U000133,Mixed Technology Interests,Cloud,Telugu,Advanced
+U000134,Mixed Technology Interests,Python,Malayalam,Beginner
+U000135,AI / Machine Learning,Generative AI,Tamil,Intermediate
+U000136,AI / Machine Learning,Generative AI,Malayalam,Intermediate
+U000137,Backend Engineering,Java,Hindi,Beginner
+U000138,AI / Machine Learning,entertainment,English,Beginner
+U000139,Entertainment,Sports,English,Intermediate
+U000140,Cybersecurity,Linux,Kannada,Beginner
+U000141,Mixed Technology Interests,DSA,Kannada,Beginner
+U000142,Entertainment,Movies,Kannada,Intermediate
+U000143,Mixed Technology Interests,Career,English,Beginner
+U000144,Entertainment,Movies,Telugu,Advanced
+U000145,Mixed Technology Interests,Cloud,Tamil,Beginner
+U000146,Backend Engineering,System Design,Hindi,Advanced
+U000147,Cybersecurity,Python,English,Intermediate
+U000148,AI / Machine Learning,Python,English,Beginner
+U000149,Entertainment,Sports,Telugu,Advanced
+U000150,Backend Engineering,DSA,Hindi,Intermediate
+U000151,Mixed Technology Interests,AI/ML,English,Intermediate
+U000152,Cybersecurity,Networking,Hindi,Beginner
+U000153,Entertainment,Movies,Telugu,Advanced
+U000154,Backend Engineering,Spring Boot,English,Beginner
+U000155,AI / Machine Learning,TensorFlow,Telugu,Beginner
+U000156,Frontend / Web Development,JavaScript,Hindi,Beginner
+U000157,Mixed Technology Interests,Java,Telugu,Intermediate
+U000158,Backend Engineering,Spring Boot,Kannada,Beginner
+U000159,Entertainment,Sports,Kannada,Intermediate
+U000160,Cybersecurity,Cybersecurity,Telugu,Advanced
+U000161,Frontend / Web Development,React,English,Advanced
+U000162,Cybersecurity,Linux,Telugu,Intermediate
+U000163,Backend Engineering,Java,Bengali,Advanced
+U000164,Entertainment,Sports,English,Advanced
+U000165,Cybersecurity,Linux,Hindi,Beginner
+U000166,Hardware / Developer Gear,AI/ML,Telugu,Advanced
+U000167,Mixed Technology Interests,DSA,Telugu,Advanced
+U000168,AI / Machine Learning,AI/ML,Malayalam,Beginner
+U000169,AI / Machine Learning,Deep Learning,Hindi,Beginner
+U000170,Backend Engineering,System Design,English,Intermediate
+U000171,Frontend / Web Development,TypeScript,English,Intermediate
+U000172,Cybersecurity,Linux,English,Intermediate
+U000173,Hardware / Developer Gear,GPUs,Kannada,Beginner
+U000174,Hardware / Developer Gear,AI/ML,Malayalam,Intermediate
+U000175,Mixed Technology Interests,AI/ML,Malayalam,Beginner
+U000176,Entertainment,Sports,Telugu,Beginner
+U000177,Mixed Technology Interests,Python,Kannada,Beginner
+U000178,Mixed Technology Interests,AI/ML,Telugu,Intermediate
+U000179,Entertainment,Movies,Tamil,Intermediate
+U000180,Entertainment,Movies,English,Advanced
+U000181,Hardware / Developer Gear,GPUs,Kannada,Beginner
+U000182,Mixed Technology Interests,AI/ML,Telugu,Advanced
+U000183,Cybersecurity,Linux,Kannada,Intermediate
+U000184,AI / Machine Learning,Python,Telugu,Beginner
+U000185,Frontend / Web Development,JavaScript,Hindi,Beginner
+U000186,Frontend / Web Development,React,Kannada,Intermediate
+U000187,Backend Engineering,Docker,English,Intermediate
+U000188,Mixed Technology Interests,DSA,Malayalam,Intermediate
+U000189,Entertainment,Gaming,English,Beginner
+U000190,Hardware / Developer Gear,Hardware,Malayalam,Advanced
+U000191,Cybersecurity,Cybersecurity,Telugu,Beginner
+U000192,Cybersecurity,Linux,English,Beginner
+U000193,Backend Engineering,Docker,Kannada,Beginner
+U000194,Backend Engineering,Java,Malayalam,Beginner
+U000195,Mixed Technology Interests,AI/ML,English,Beginner
+U000196,Backend Engineering,Docker,Hindi,Beginner
+U000197,Backend Engineering,REST,English,Intermediate
+U000198,Entertainment,Movies,English,Advanced
+U000199,Entertainment,Gaming,Tamil,Beginner
+U000200,AI / Machine Learning,PyTorch,Malayalam,Advanced
+U000201,Mixed Technology Interests,DSA,Hindi,Beginner
+U000202,AI / Machine Learning,entertainment,Telugu,Intermediate
+U000203,Cybersecurity,Linux,English,Intermediate
+U000204,Entertainment,Movies,Tamil,Intermediate
+U000205,Hardware / Developer Gear,Gaming,Telugu,Beginner
+U000206,Backend Engineering,System Design,English,Intermediate
+U000207,Mixed Technology Interests,Cybersecurity,Telugu,Beginner
+U000208,Cybersecurity,Linux,English,Advanced
+U000209,Frontend / Web Development,UI/UX,English,Intermediate
+U000210,Mixed Technology Interests,Java,Tamil,Beginner
+U000211,Mixed Technology Interests,Python,English,Beginner
+U000212,AI / Machine Learning,Generative AI,English,Intermediate
+U000213,Entertainment,Movies,Malayalam,Beginner
+U000214,AI / Machine Learning,AI/ML,English,Beginner
+U000215,Entertainment,Sports,Tamil,Advanced
+U000216,Frontend / Web Development,entertainment,Tamil,Advanced
+U000217,Backend Engineering,DSA,English,Beginner
+U000218,Frontend / Web Development,React,Hindi,Intermediate
+U000219,Hardware / Developer Gear,GPUs,English,Intermediate
+U000220,Mixed Technology Interests,Career,Malayalam,Intermediate
+U000221,Mixed Technology Interests,DSA,Telugu,Beginner
+U000222,AI / Machine Learning,Generative AI,English,Intermediate
+U000223,Cybersecurity,Cybersecurity,Malayalam,Beginner
+U000224,Frontend / Web Development,Web Development,Hindi,Intermediate
+U000225,Mixed Technology Interests,Java,Telugu,Intermediate
+U000226,Mixed Technology Interests,Cybersecurity,English,Advanced
+U000227,Frontend / Web Development,JavaScript,English,Beginner
+U000228,AI / Machine Learning,AI/ML,Hindi,Advanced
+U000229,Entertainment,Movies,Malayalam,Beginner
+U000230,Entertainment,Comedy,English,Beginner
+U000231,Cybersecurity,Linux,English,Intermediate
+U000232,Mixed Technology Interests,Career,Hindi,Beginner
+U000233,AI / Machine Learning,AI/ML,English,Intermediate
+U000234,Hardware / Developer Gear,Gaming,English,Beginner
+U000235,Frontend / Web Development,TypeScript,Malayalam,Advanced
+U000236,Backend Engineering,System Design,Hindi,Beginner
+U000237,Entertainment,entertainment,English,Advanced
+U000238,Backend Engineering,System Design,Hindi,Beginner
+U000239,Mixed Technology Interests,Career,English,Beginner
+U000240,AI / Machine Learning,Python,Malayalam,Intermediate
+U000241,AI / Machine Learning,AI/ML,Bengali,Intermediate
+U000242,Mixed Technology Interests,Career,Tamil,Intermediate
+U000243,Backend Engineering,entertainment,English,Intermediate
+U000244,Frontend / Web Development,TypeScript,Telugu,Beginner
+U000245,Frontend / Web Development,entertainment,English,Beginner
+U000246,Frontend / Web Development,CSS,Telugu,Beginner
+U000247,Entertainment,Gaming,English,Beginner
+U000248,AI / Machine Learning,TensorFlow,Hindi,Advanced
+U000249,AI / Machine Learning,AI/ML,Hindi,Beginner
+U000250,Frontend / Web Development,React,English,Beginner
+U000251,Mixed Technology Interests,Java,English,Beginner
+U000252,Entertainment,Movies,English,Intermediate
+U000253,Frontend / Web Development,JavaScript,Kannada,Beginner
+U000254,AI / Machine Learning,DSA,English,Intermediate
+U000255,Cybersecurity,Linux,English,Beginner
+U000256,Backend Engineering,DSA,Kannada,Beginner
+U000257,AI / Machine Learning,AI/ML,Tamil,Beginner
+U000258,Frontend / Web Development,CSS,English,Beginner
+U000259,Hardware / Developer Gear,Gaming,Tamil,Beginner
+U000260,Entertainment,Movies,English,Intermediate
+U000261,Frontend / Web Development,UI/UX,English,Beginner
+U000262,Entertainment,Movies,English,Beginner
+U000263,Frontend / Web Development,React,English,Beginner
+U000264,Backend Engineering,Spring Boot,Telugu,Beginner
+U000265,Frontend / Web Development,React,English,Advanced
+U000266,Backend Engineering,Spring Boot,English,Beginner
+U000267,Backend Engineering,DSA,English,Intermediate
+U000268,AI / Machine Learning,PyTorch,Telugu,Beginner
+U000269,Mixed Technology Interests,AI/ML,English,Beginner
+U000270,Entertainment,Sports,English,Beginner
+U000271,Entertainment,Movies,Telugu,Advanced
+U000272,Backend Engineering,DSA,Malayalam,Beginner
+U000273,Backend Engineering,Java,Kannada,Beginner
+U000274,AI / Machine Learning,Python,Telugu,Beginner
+U000275,AI / Machine Learning,AI/ML,English,Beginner
+U000276,AI / Machine Learning,Python,English,Intermediate
+U000277,AI / Machine Learning,Python,Hindi,Beginner
+U000278,Cybersecurity,entertainment,Hindi,Advanced
+U000279,AI / Machine Learning,Python,Malayalam,Advanced
+U000280,Hardware / Developer Gear,Gaming,Tamil,Intermediate
+U000281,Frontend / Web Development,CSS,English,Intermediate
+U000282,Hardware / Developer Gear,Gaming,English,Intermediate
+U000283,Backend Engineering,Java,English,Beginner
+U000284,Hardware / Developer Gear,Gaming,English,Beginner
+U000285,Backend Engineering,Docker,English,Intermediate
+U000286,Frontend / Web Development,UI/UX,English,Intermediate
+U000287,Entertainment,Comedy,English,Beginner
+U000288,Cybersecurity,Linux,Tamil,Beginner
+U000289,Frontend / Web Development,Web Development,English,Intermediate
+U000290,Hardware / Developer Gear,Gaming,English,Advanced
+U000291,Mixed Technology Interests,AI/ML,Telugu,Beginner
+U000292,AI / Machine Learning,AI/ML,Telugu,Beginner
+U000293,Mixed Technology Interests,DSA,English,Advanced
+U000294,AI / Machine Learning,AI/ML,English,Advanced
+U000295,Entertainment,Comedy,English,Intermediate
+U000296,AI / Machine Learning,Python,Hindi,Beginner
+U000297,Entertainment,Comedy,Telugu,Intermediate
+U000298,Frontend / Web Development,entertainment,Bengali,Intermediate
+U000299,Cybersecurity,Linux,Telugu,Advanced
+U000300,Entertainment,Comedy,English,Intermediate
+U000301,Backend Engineering,AWS,English,Beginner
+U000302,Backend Engineering,Java,English,Advanced
+U000303,Hardware / Developer Gear,Gaming,Telugu,Intermediate
+U000304,Cybersecurity,Python,English,Advanced
+U000305,Entertainment,entertainment,English,Intermediate
+U000306,Frontend / Web Development,UI/UX,Telugu,Advanced
+U000307,Mixed Technology Interests,Java,Malayalam,Beginner
+U000308,Backend Engineering,DSA,Bengali,Advanced
+U000309,Mixed Technology Interests,Java,English,Advanced
+U000310,Mixed Technology Interests,AI/ML,English,Beginner
+U000311,Mixed Technology Interests,Career,Tamil,Advanced
+U000312,Backend Engineering,Java,English,Beginner
+U000313,Mixed Technology Interests,DSA,Tamil,Intermediate
+U000314,Cybersecurity,Networking,English,Beginner
+U000315,AI / Machine Learning,entertainment,English,Intermediate
+U000316,AI / Machine Learning,Python,English,Advanced
+U000317,Frontend / Web Development,TypeScript,Telugu,Intermediate
+U000318,Entertainment,entertainment,English,Intermediate
+U000319,Cybersecurity,Linux,Malayalam,Intermediate
+U000320,AI / Machine Learning,Generative AI,Tamil,Beginner
+U000321,Cybersecurity,Linux,English,Beginner
+U000322,Entertainment,Movies,English,Advanced
+U000323,Cybersecurity,Linux,Kannada,Beginner
+U000324,Entertainment,Sports,English,Intermediate
+U000325,Backend Engineering,AWS,Tamil,Intermediate
+U000326,Hardware / Developer Gear,Gaming,English,Beginner
+U000327,Backend Engineering,Java,Hindi,Beginner
+U000328,Backend Engineering,REST,Bengali,Intermediate
+U000329,Frontend / Web Development,React,English,Advanced
+U000330,Cybersecurity,Python,English,Advanced
+U000331,Mixed Technology Interests,Java,Malayalam,Beginner
+U000332,Cybersecurity,Cybersecurity,Bengali,Beginner
+U000333,Backend Engineering,Java,Telugu,Intermediate
+U000334,Entertainment,Movies,Telugu,Beginner
+U000335,Entertainment,Sports,English,Advanced
+U000336,Frontend / Web Development,entertainment,Telugu,Intermediate
+U000337,Backend Engineering,DSA,English,Advanced
+U000338,Entertainment,Movies,English,Beginner
+U000339,AI / Machine Learning,PyTorch,Tamil,Intermediate
+U000340,Entertainment,Movies,Hindi,Intermediate
+U000341,AI / Machine Learning,entertainment,Tamil,Beginner
+U000342,Hardware / Developer Gear,Laptops,English,Intermediate
+U000343,AI / Machine Learning,Python,Telugu,Intermediate
+U000344,Backend Engineering,Spring Boot,English,Beginner
+U000345,Entertainment,Comedy,English,Intermediate
+U000346,Frontend / Web Development,React,Kannada,Beginner
+U000347,Entertainment,Gaming,Malayalam,Advanced
+U000348,AI / Machine Learning,Python,Telugu,Intermediate
+U000349,Mixed Technology Interests,Career,Kannada,Beginner
+U000350,Entertainment,Movies,Hindi,Advanced
+U000351,Entertainment,Movies,Kannada,Intermediate
+U000352,Backend Engineering,REST,English,Intermediate
+U000353,Hardware / Developer Gear,Gaming,English,Advanced
+U000354,Entertainment,Sports,Telugu,Beginner
+U000355,Mixed Technology Interests,Career,Telugu,Intermediate
+U000356,Entertainment,Sports,Malayalam,Beginner
+U000357,Entertainment,Comedy,English,Beginner
+U000358,Mixed Technology Interests,AI/ML,Tamil,Intermediate
+U000359,Mixed Technology Interests,AI/ML,English,Beginner
+U000360,AI / Machine Learning,Python,English,Beginner
+U000361,Backend Engineering,Java,Telugu,Intermediate
+U000362,Backend Engineering,System Design,English,Intermediate
+U000363,Cybersecurity,Networking,Telugu,Beginner
+U000364,AI / Machine Learning,Generative AI,Hindi,Intermediate
+U000365,Entertainment,entertainment,Tamil,Beginner
+U000366,Cybersecurity,Linux,Tamil,Beginner
+U000367,Entertainment,Movies,Telugu,Beginner
+U000368,Backend Engineering,System Design,English,Intermediate
+U000369,AI / Machine Learning,Generative AI,Bengali,Intermediate
+U000370,Backend Engineering,entertainment,Telugu,Beginner
+U000371,Backend Engineering,Docker,Tamil,Intermediate
+U000372,Frontend / Web Development,UI/UX,Hindi,Beginner
+U000373,Entertainment,Movies,Tamil,Intermediate
+U000374,Mixed Technology Interests,Python,Hindi,Intermediate
+U000375,Hardware / Developer Gear,GPUs,Hindi,Intermediate
+U000376,Cybersecurity,Python,English,Beginner
+U000377,Frontend / Web Development,React,Telugu,Intermediate
+U000378,Backend Engineering,REST,Kannada,Intermediate
+U000379,Mixed Technology Interests,AI/ML,Bengali,Beginner
+U000380,Backend Engineering,AWS,English,Beginner
+U000381,Backend Engineering,Spring Boot,English,Intermediate
+U000382,Hardware / Developer Gear,Hardware,Hindi,Advanced
+U000383,AI / Machine Learning,Generative AI,Hindi,Intermediate
+U000384,AI / Machine Learning,entertainment,English,Intermediate
+U000385,Cybersecurity,entertainment,Malayalam,Beginner
+U000386,Backend Engineering,Docker,Tamil,Beginner
+U000387,Entertainment,Sports,Kannada,Beginner
+U000388,AI / Machine Learning,AI/ML,English,Advanced
+U000389,Hardware / Developer Gear,Hardware,English,Beginner
+U000390,Frontend / Web Development,UI/UX,Kannada,Beginner
+U000391,Hardware / Developer Gear,Hardware,Tamil,Intermediate
+U000392,Cybersecurity,Python,Hindi,Advanced
+U000393,AI / Machine Learning,Python,English,Beginner
+U000394,Entertainment,Movies,Telugu,Beginner
+U000395,Backend Engineering,Spring Boot,Kannada,Intermediate
+U000396,Hardware / Developer Gear,Hardware,Hindi,Advanced
+U000397,Backend Engineering,Spring Boot,Telugu,Intermediate
+U000398,Backend Engineering,Java,Malayalam,Beginner
+U000399,Cybersecurity,Cybersecurity,English,Advanced
+U000400,Backend Engineering,Docker,Kannada,Beginner
+U000401,Entertainment,Comedy,Telugu,Beginner
+U000402,Mixed Technology Interests,Career,English,Intermediate
+U000403,Mixed Technology Interests,Career,Telugu,Advanced
+U000404,Backend Engineering,Java,English,Intermediate
+U000405,Hardware / Developer Gear,Gaming,English,Advanced
+U000406,AI / Machine Learning,AI/ML,Hindi,Intermediate
+U000407,Cybersecurity,Linux,English,Intermediate
+U000408,Frontend / Web Development,React,Telugu,Advanced
+U000409,Cybersecurity,entertainment,Hindi,Beginner
+U000410,Hardware / Developer Gear,Gaming,Tamil,Intermediate
+U000411,AI / Machine Learning,PyTorch,Telugu,Intermediate
+U000412,AI / Machine Learning,AI/ML,English,Beginner
+U000413,Frontend / Web Development,JavaScript,English,Intermediate
+U000414,Backend Engineering,Java,Hindi,Intermediate
+U000415,Entertainment,Movies,English,Intermediate
+U000416,Entertainment,Comedy,Tamil,Intermediate
+U000417,Mixed Technology Interests,Python,Hindi,Advanced
+U000418,Mixed Technology Interests,Career,Kannada,Intermediate
+U000419,Mixed Technology Interests,Career,Hindi,Advanced
+U000420,Mixed Technology Interests,Python,Telugu,Beginner
+U000421,Entertainment,Movies,Hindi,Beginner
+U000422,Mixed Technology Interests,Career,English,Advanced
+U000423,Mixed Technology Interests,Java,Telugu,Beginner
+U000424,Mixed Technology Interests,Career,Tamil,Advanced
+U000425,Backend Engineering,Spring Boot,Malayalam,Intermediate
+U000426,Entertainment,Sports,Hindi,Beginner
+U000427,AI / Machine Learning,Deep Learning,Telugu,Advanced
+U000428,Backend Engineering,entertainment,Hindi,Beginner
+U000429,Entertainment,Movies,English,Advanced
+U000430,Hardware / Developer Gear,entertainment,Tamil,Beginner
+U000431,AI / Machine Learning,AI/ML,Telugu,Beginner
+U000432,Mixed Technology Interests,Java,Tamil,Intermediate
+U000433,Hardware / Developer Gear,Laptops,English,Intermediate
+U000434,Hardware / Developer Gear,Laptops,English,Intermediate
+U000435,AI / Machine Learning,entertainment,Telugu,Intermediate
+U000436,Backend Engineering,Spring Boot,English,Intermediate
+U000437,Hardware / Developer Gear,GPUs,Hindi,Beginner
+U000438,Cybersecurity,Python,Tamil,Beginner
+U000439,Frontend / Web Development,UI/UX,English,Beginner
+U000440,Mixed Technology Interests,Python,English,Beginner
+U000441,Mixed Technology Interests,AI/ML,Kannada,Intermediate
+U000442,Backend Engineering,Spring Boot,Hindi,Beginner
+U000443,Frontend / Web Development,React,English,Beginner
+U000444,Mixed Technology Interests,DSA,English,Intermediate
+U000445,Cybersecurity,Linux,English,Beginner
+U000446,Mixed Technology Interests,Cybersecurity,English,Intermediate
+U000447,Entertainment,Gaming,Tamil,Beginner
+U000448,Cybersecurity,Linux,Malayalam,Intermediate
+U000449,AI / Machine Learning,entertainment,English,Intermediate
+U000450,Hardware / Developer Gear,Laptops,Telugu,Intermediate
+U000451,Hardware / Developer Gear,entertainment,English,Advanced
+U000452,Entertainment,Gaming,Telugu,Beginner
+U000453,Frontend / Web Development,CSS,Telugu,Beginner
+U000454,Mixed Technology Interests,Java,Telugu,Advanced
+U000455,Backend Engineering,Docker,Kannada,Beginner
+U000456,Frontend / Web Development,CSS,Malayalam,Beginner
+U000457,AI / Machine Learning,PyTorch,Telugu,Beginner
+U000458,Cybersecurity,Networking,Telugu,Beginner
+U000459,Frontend / Web Development,Web Development,English,Intermediate
+U000460,AI / Machine Learning,DSA,English,Intermediate
+U000461,Backend Engineering,Java,Bengali,Intermediate
+U000462,Backend Engineering,Spring Boot,English,Intermediate
+U000463,AI / Machine Learning,TensorFlow,English,Intermediate
+U000464,Cybersecurity,Python,Telugu,Advanced
+U000465,Mixed Technology Interests,Java,Malayalam,Intermediate
+U000466,Backend Engineering,Java,Kannada,Intermediate
+U000467,Entertainment,Movies,English,Advanced
+U000468,Mixed Technology Interests,AI/ML,Telugu,Intermediate
+U000469,Hardware / Developer Gear,GPUs,English,Intermediate
+U000470,Entertainment,Gaming,Bengali,Advanced
+U000471,Backend Engineering,Java,English,Beginner
+U000472,Hardware / Developer Gear,Hardware,English,Beginner
+U000473,Mixed Technology Interests,Career,English,Advanced
+U000474,Hardware / Developer Gear,Gaming,English,Intermediate
+U000475,Mixed Technology Interests,AI/ML,English,Beginner
+U000476,Mixed Technology Interests,DSA,Kannada,Beginner
+U000477,Cybersecurity,Linux,Tamil,Beginner
+U000478,Entertainment,Movies,Telugu,Beginner
+U000479,Entertainment,Movies,English,Beginner
+U000480,Cybersecurity,Networking,English,Intermediate
+U000481,Entertainment,Movies,Tamil,Beginner
+U000482,AI / Machine Learning,Deep Learning,English,Beginner
+U000483,Cybersecurity,Networking,English,Intermediate
+U000484,Entertainment,Comedy,English,Beginner
+U000485,Backend Engineering,REST,English,Beginner
+U000486,Frontend / Web Development,Web Development,English,Beginner
+U000487,Entertainment,entertainment,English,Advanced
+U000488,Entertainment,entertainment,Bengali,Intermediate
+U000489,Mixed Technology Interests,Java,Tamil,Beginner
+U000490,AI / Machine Learning,Deep Learning,English,Advanced
+U000491,Entertainment,Sports,Malayalam,Beginner
+U000492,Hardware / Developer Gear,Laptops,English,Intermediate
+U000493,Entertainment,Comedy,Hindi,Beginner
+U000494,Entertainment,Comedy,Hindi,Advanced
+U000495,AI / Machine Learning,Python,English,Intermediate
+U000496,Frontend / Web Development,entertainment,Hindi,Advanced
+U000497,Mixed Technology Interests,Career,Tamil,Beginner
+U000498,Cybersecurity,Cybersecurity,Hindi,Intermediate
+U000499,Frontend / Web Development,React,Telugu,Intermediate
+U000500,AI / Machine Learning,AI/ML,English,Advanced
+TRAP_JAVA_BACKEND,Software Engineering / Backend,Spring Boot,English,Intermediate
+TRAP_MULTILINGUAL,AI / Machine Learning,AI/ML,Telugu,Beginner
+TRAP_ENTERTAINMENT_HEAVY,Programming / DSA (masked by heavy entertainment consumption),Movies,English,Intermediate

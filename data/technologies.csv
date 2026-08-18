@@ -1,0 +1,521 @@
+entity_id,entity_name,entity_type
+T0001,Python,programming_language
+T0002,Java,programming_language
+T0003,C,programming_language
+T0004,C++,programming_language
+T0005,C#,programming_language
+T0006,JavaScript,programming_language
+T0007,TypeScript,programming_language
+T0008,Go,programming_language
+T0009,Rust,programming_language
+T0010,Kotlin,programming_language
+T0011,Swift,programming_language
+T0012,PHP,programming_language
+T0013,Dart,programming_language
+T0014,R,programming_language
+T0015,SQL,programming_language
+T0016,Scala,programming_language
+T0017,Ruby,programming_language
+T0018,React,framework
+T0019,Angular,framework
+T0020,Vue,framework
+T0021,Spring Boot,framework
+T0022,Django,framework
+T0023,FastAPI,framework
+T0024,Flask,framework
+T0025,Express.js,framework
+T0026,.NET,framework
+T0027,Node.js,framework
+T0028,TensorFlow,framework
+T0029,PyTorch,framework
+T0030,Next.js,framework
+T0031,Svelte,framework
+T0032,Laravel,framework
+T0033,Ktor,framework
+T0034,AWS,technology
+T0035,Azure,technology
+T0036,GCP,technology
+T0037,Docker,technology
+T0038,Kubernetes,technology
+T0039,PostgreSQL,technology
+T0040,MongoDB,technology
+T0041,Redis,technology
+T0042,Git,technology
+T0043,Jenkins,technology
+T0044,Terraform,technology
+T0045,Linux,technology
+T0046,Kafka,technology
+T0047,GraphQL,technology
+T0048,Nginx,technology
+T0049,Elasticsearch,technology
+T0050,DSA,concept
+T0051,OOP,concept
+T0052,APIs,concept
+T0053,HLD,concept
+T0054,LLD,concept
+T0055,REST,concept
+T0056,Microservices,concept
+T0057,Distributed Systems,concept
+T0058,System Design,concept
+T0059,Databases,concept
+T0060,Data Structures,concept
+T0061,Algorithms,concept
+T0062,Design Patterns,concept
+T0063,Concurrency,concept
+T0064,Memory Management,concept
+T0065,Caching,concept
+T0066,Load Balancing,concept
+T0067,AI/ML,domain
+T0068,Deep Learning,domain
+T0069,Generative AI,domain
+T0070,Cloud,domain
+T0071,DevOps,domain
+T0072,Cybersecurity,domain
+T0073,Networking,domain
+T0074,Web Development,domain
+T0075,Mobile Development,domain
+T0076,Backend,domain
+T0077,Frontend,domain
+T0078,Software Engineering,domain
+T0079,Career,domain
+T0080,Hardware,domain
+T0081,Data Science,domain
+T0082,Blockchain,domain
+T0083,Software Engineering Best Practices,sub_topic
+T0084,Concurrency Best Practices,sub_topic
+T0085,Azure Design Patterns,sub_topic
+T0086,Concurrency Fundamentals,sub_topic
+T0087,DSA Interview Questions,sub_topic
+T0088,APIs for Beginners,sub_topic
+T0089,Data Structures for Beginners,sub_topic
+T0090,Hardware Security,sub_topic
+T0091,C++ Design Patterns,sub_topic
+T0092,Backend Testing,sub_topic
+T0093,C++ Advanced,sub_topic
+T0094,REST for Beginners,sub_topic
+T0095,TypeScript in Production,sub_topic
+T0096,Elasticsearch Interview Questions,sub_topic
+T0097,TensorFlow Performance Tuning,sub_topic
+T0098,Git Interview Questions,sub_topic
+T0099,Elasticsearch in Production,sub_topic
+T0100,LLD in Production,sub_topic
+T0101,Swift Performance Tuning,sub_topic
+T0102,C Security,sub_topic
+T0103,TypeScript Interview Questions,sub_topic
+T0104,PyTorch Advanced,sub_topic
+T0105,JavaScript Fundamentals,sub_topic
+T0106,Laravel Best Practices,sub_topic
+T0107,C Testing,sub_topic
+T0108,Vue Best Practices,sub_topic
+T0109,Ruby Performance Tuning,sub_topic
+T0110,SQL Testing,sub_topic
+T0111,Ktor Interview Questions,sub_topic
+T0112,Django Testing,sub_topic
+T0113,Software Engineering Advanced,sub_topic
+T0114,Spring Boot in Production,sub_topic
+T0115,R Testing,sub_topic
+T0116,C++ in Production,sub_topic
+T0117,Web Development Design Patterns,sub_topic
+T0118,OOP Best Practices,sub_topic
+T0119,Kotlin Testing,sub_topic
+T0120,Data Science Best Practices,sub_topic
+T0121,R in Production,sub_topic
+T0122,Frontend Advanced,sub_topic
+T0123,Networking Fundamentals,sub_topic
+T0124,Linux Security,sub_topic
+T0125,REST Interview Questions,sub_topic
+T0126,Rust Security,sub_topic
+T0127,Terraform Fundamentals,sub_topic
+T0128,LLD Performance Tuning,sub_topic
+T0129,R Design Patterns,sub_topic
+T0130,GraphQL Performance Tuning,sub_topic
+T0131,Vue Design Patterns,sub_topic
+T0132,FastAPI Security,sub_topic
+T0133,Azure Testing,sub_topic
+T0134,Generative AI Performance Tuning,sub_topic
+T0135,Data Structures Design Patterns,sub_topic
+T0136,Backend in Production,sub_topic
+T0137,Git Best Practices,sub_topic
+T0138,PHP in Production,sub_topic
+T0139,System Design Best Practices,sub_topic
+T0140,Data Structures Testing,sub_topic
+T0141,Career Design Patterns,sub_topic
+T0142,Memory Management Interview Questions,sub_topic
+T0143,Flask Performance Tuning,sub_topic
+T0144,TensorFlow Interview Questions,sub_topic
+T0145,AWS Interview Questions,sub_topic
+T0146,GCP Testing,sub_topic
+T0147,GCP Security,sub_topic
+T0148,Java Security,sub_topic
+T0149,Express.js Advanced,sub_topic
+T0150,Svelte Design Patterns,sub_topic
+T0151,Concurrency Security,sub_topic
+T0152,Svelte Performance Tuning,sub_topic
+T0153,Concurrency Performance Tuning,sub_topic
+T0154,C Advanced,sub_topic
+T0155,Kubernetes Best Practices,sub_topic
+T0156,APIs Best Practices,sub_topic
+T0157,MongoDB Testing,sub_topic
+T0158,Nginx Performance Tuning,sub_topic
+T0159,DevOps Security,sub_topic
+T0160,Linux Design Patterns,sub_topic
+T0161,DevOps Interview Questions,sub_topic
+T0162,Kafka Performance Tuning,sub_topic
+T0163,Azure in Production,sub_topic
+T0164,Ktor Best Practices,sub_topic
+T0165,Scala Best Practices,sub_topic
+T0166,Redis Advanced,sub_topic
+T0167,Generative AI for Beginners,sub_topic
+T0168,Express.js Best Practices,sub_topic
+T0169,Design Patterns in Production,sub_topic
+T0170,Backend Security,sub_topic
+T0171,Frontend in Production,sub_topic
+T0172,Dart Best Practices,sub_topic
+T0173,GraphQL for Beginners,sub_topic
+T0174,PostgreSQL Fundamentals,sub_topic
+T0175,GCP Fundamentals,sub_topic
+T0176,TypeScript Security,sub_topic
+T0177,Kubernetes for Beginners,sub_topic
+T0178,Blockchain Performance Tuning,sub_topic
+T0179,R Fundamentals,sub_topic
+T0180,Web Development in Production,sub_topic
+T0181,Algorithms Performance Tuning,sub_topic
+T0182,Distributed Systems Interview Questions,sub_topic
+T0183,Flask Fundamentals,sub_topic
+T0184,Ktor Performance Tuning,sub_topic
+T0185,SQL Advanced,sub_topic
+T0186,APIs Performance Tuning,sub_topic
+T0187,Data Science Fundamentals,sub_topic
+T0188,Vue for Beginners,sub_topic
+T0189,Networking in Production,sub_topic
+T0190,Swift Best Practices,sub_topic
+T0191,Scala Security,sub_topic
+T0192,LLD Testing,sub_topic
+T0193,Frontend Testing,sub_topic
+T0194,PyTorch Security,sub_topic
+T0195,Elasticsearch Performance Tuning,sub_topic
+T0196,Distributed Systems in Production,sub_topic
+T0197,Backend Design Patterns,sub_topic
+T0198,Hardware Fundamentals,sub_topic
+T0199,Career Advanced,sub_topic
+T0200,Node.js Best Practices,sub_topic
+T0201,AWS Advanced,sub_topic
+T0202,Spring Boot Best Practices,sub_topic
+T0203,Kotlin for Beginners,sub_topic
+T0204,Python Design Patterns,sub_topic
+T0205,System Design Testing,sub_topic
+T0206,Algorithms in Production,sub_topic
+T0207,C# Best Practices,sub_topic
+T0208,Docker in Production,sub_topic
+T0209,Databases Advanced,sub_topic
+T0210,Next.js in Production,sub_topic
+T0211,Data Science Testing,sub_topic
+T0212,.NET Design Patterns,sub_topic
+T0213,SQL Security,sub_topic
+T0214,PyTorch for Beginners,sub_topic
+T0215,Azure for Beginners,sub_topic
+T0216,Kotlin Fundamentals,sub_topic
+T0217,Django in Production,sub_topic
+T0218,Docker Performance Tuning,sub_topic
+T0219,Scala Performance Tuning,sub_topic
+T0220,PostgreSQL Design Patterns,sub_topic
+T0221,Azure Security,sub_topic
+T0222,Cloud Performance Tuning,sub_topic
+T0223,Distributed Systems Advanced,sub_topic
+T0224,Frontend Fundamentals,sub_topic
+T0225,Microservices Interview Questions,sub_topic
+T0226,Software Engineering in Production,sub_topic
+T0227,Next.js Testing,sub_topic
+T0228,Backend Fundamentals,sub_topic
+T0229,JavaScript for Beginners,sub_topic
+T0230,Algorithms Security,sub_topic
+T0231,Flask Testing,sub_topic
+T0232,Microservices Performance Tuning,sub_topic
+T0233,PHP Performance Tuning,sub_topic
+T0234,Jenkins Interview Questions,sub_topic
+T0235,R for Beginners,sub_topic
+T0236,Jenkins Design Patterns,sub_topic
+T0237,Memory Management in Production,sub_topic
+T0238,APIs Security,sub_topic
+T0239,C# Performance Tuning,sub_topic
+T0240,PHP Interview Questions,sub_topic
+T0241,SQL Design Patterns,sub_topic
+T0242,Load Balancing Fundamentals,sub_topic
+T0243,HLD Fundamentals,sub_topic
+T0244,Express.js Security,sub_topic
+T0245,GraphQL Testing,sub_topic
+T0246,Memory Management Performance Tuning,sub_topic
+T0247,TypeScript Best Practices,sub_topic
+T0248,Ruby in Production,sub_topic
+T0249,Distributed Systems Performance Tuning,sub_topic
+T0250,Scala Fundamentals,sub_topic
+T0251,Svelte for Beginners,sub_topic
+T0252,MongoDB Security,sub_topic
+T0253,HLD Advanced,sub_topic
+T0254,Data Structures Advanced,sub_topic
+T0255,Vue Performance Tuning,sub_topic
+T0256,Kubernetes Security,sub_topic
+T0257,Design Patterns Performance Tuning,sub_topic
+T0258,Laravel Performance Tuning,sub_topic
+T0259,DevOps for Beginners,sub_topic
+T0260,DSA Best Practices,sub_topic
+T0261,Frontend Security,sub_topic
+T0262,React Advanced,sub_topic
+T0263,GCP Design Patterns,sub_topic
+T0264,Terraform Security,sub_topic
+T0265,Azure Fundamentals,sub_topic
+T0266,Concurrency for Beginners,sub_topic
+T0267,System Design Security,sub_topic
+T0268,Design Patterns Interview Questions,sub_topic
+T0269,Jenkins Security,sub_topic
+T0270,Cloud Design Patterns,sub_topic
+T0271,Databases Interview Questions,sub_topic
+T0272,Next.js Design Patterns,sub_topic
+T0273,JavaScript Interview Questions,sub_topic
+T0274,Algorithms Design Patterns,sub_topic
+T0275,DSA for Beginners,sub_topic
+T0276,Memory Management Fundamentals,sub_topic
+T0277,Ruby Security,sub_topic
+T0278,Backend Interview Questions,sub_topic
+T0279,Dart Performance Tuning,sub_topic
+T0280,Dart Security,sub_topic
+T0281,Databases Fundamentals,sub_topic
+T0282,Angular Design Patterns,sub_topic
+T0283,Vue Advanced,sub_topic
+T0284,Terraform Testing,sub_topic
+T0285,OOP Advanced,sub_topic
+T0286,Data Science Performance Tuning,sub_topic
+T0287,Cloud Fundamentals,sub_topic
+T0288,Hardware Advanced,sub_topic
+T0289,Svelte in Production,sub_topic
+T0290,Next.js Advanced,sub_topic
+T0291,Microservices Advanced,sub_topic
+T0292,Blockchain Advanced,sub_topic
+T0293,Distributed Systems for Beginners,sub_topic
+T0294,Go in Production,sub_topic
+T0295,Kafka Interview Questions,sub_topic
+T0296,Microservices for Beginners,sub_topic
+T0297,Laravel Security,sub_topic
+T0298,HLD Testing,sub_topic
+T0299,Flask for Beginners,sub_topic
+T0300,FastAPI Advanced,sub_topic
+T0301,Hardware Best Practices,sub_topic
+T0302,Memory Management Testing,sub_topic
+T0303,Angular Best Practices,sub_topic
+T0304,Data Structures in Production,sub_topic
+T0305,Databases in Production,sub_topic
+T0306,Java Performance Tuning,sub_topic
+T0307,Docker Security,sub_topic
+T0308,Spring Boot Advanced,sub_topic
+T0309,Blockchain Design Patterns,sub_topic
+T0310,PostgreSQL Best Practices,sub_topic
+T0311,DSA Performance Tuning,sub_topic
+T0312,R Best Practices,sub_topic
+T0313,Elasticsearch Testing,sub_topic
+T0314,Kafka Testing,sub_topic
+T0315,Kubernetes in Production,sub_topic
+T0316,C Design Patterns,sub_topic
+T0317,Software Engineering Performance Tuning,sub_topic
+T0318,Docker Best Practices,sub_topic
+T0319,Software Engineering Interview Questions,sub_topic
+T0320,PyTorch Best Practices,sub_topic
+T0321,Hardware in Production,sub_topic
+T0322,MongoDB Performance Tuning,sub_topic
+T0323,C# Testing,sub_topic
+T0324,Git Design Patterns,sub_topic
+T0325,FastAPI Best Practices,sub_topic
+T0326,GraphQL Security,sub_topic
+T0327,Caching in Production,sub_topic
+T0328,Terraform Advanced,sub_topic
+T0329,OOP Security,sub_topic
+T0330,GraphQL Advanced,sub_topic
+T0331,OOP Fundamentals,sub_topic
+T0332,AWS Security,sub_topic
+T0333,Nginx in Production,sub_topic
+T0334,Mobile Development Design Patterns,sub_topic
+T0335,Blockchain Interview Questions,sub_topic
+T0336,Algorithms Fundamentals,sub_topic
+T0337,Git Testing,sub_topic
+T0338,SQL for Beginners,sub_topic
+T0339,PostgreSQL Performance Tuning,sub_topic
+T0340,Svelte Security,sub_topic
+T0341,React Design Patterns,sub_topic
+T0342,Backend for Beginners,sub_topic
+T0343,LLD Advanced,sub_topic
+T0344,Concurrency Testing,sub_topic
+T0345,HLD in Production,sub_topic
+T0346,C# Interview Questions,sub_topic
+T0347,Distributed Systems Best Practices,sub_topic
+T0348,Nginx Security,sub_topic
+T0349,Kafka Fundamentals,sub_topic
+T0350,OOP in Production,sub_topic
+T0351,TensorFlow Testing,sub_topic
+T0352,C Fundamentals,sub_topic
+T0353,Jenkins Best Practices,sub_topic
+T0354,Ruby Testing,sub_topic
+T0355,Node.js Advanced,sub_topic
+T0356,DevOps Best Practices,sub_topic
+T0357,Backend Best Practices,sub_topic
+T0358,Next.js Interview Questions,sub_topic
+T0359,Angular Testing,sub_topic
+T0360,Python in Production,sub_topic
+T0361,Angular for Beginners,sub_topic
+T0362,Cloud in Production,sub_topic
+T0363,C++ for Beginners,sub_topic
+T0364,Java Interview Questions,sub_topic
+T0365,Svelte Testing,sub_topic
+T0366,Git Fundamentals,sub_topic
+T0367,FastAPI in Production,sub_topic
+T0368,TypeScript for Beginners,sub_topic
+T0369,LLD Security,sub_topic
+T0370,Backend Advanced,sub_topic
+T0371,PyTorch Testing,sub_topic
+T0372,JavaScript Security,sub_topic
+T0373,C++ Fundamentals,sub_topic
+T0374,Design Patterns Design Patterns,sub_topic
+T0375,REST Advanced,sub_topic
+T0376,Kotlin Advanced,sub_topic
+T0377,Angular Advanced,sub_topic
+T0378,Hardware Testing,sub_topic
+T0379,Deep Learning in Production,sub_topic
+T0380,Databases Security,sub_topic
+T0381,Software Engineering Design Patterns,sub_topic
+T0382,Dart Advanced,sub_topic
+T0383,Terraform Performance Tuning,sub_topic
+T0384,APIs Design Patterns,sub_topic
+T0385,Dart Interview Questions,sub_topic
+T0386,Rust Advanced,sub_topic
+T0387,Swift Advanced,sub_topic
+T0388,Nginx for Beginners,sub_topic
+T0389,Cybersecurity Fundamentals,sub_topic
+T0390,Cybersecurity Interview Questions,sub_topic
+T0391,Scala Design Patterns,sub_topic
+T0392,Kafka Design Patterns,sub_topic
+T0393,Kafka Advanced,sub_topic
+T0394,Web Development Security,sub_topic
+T0395,TensorFlow for Beginners,sub_topic
+T0396,Design Patterns Best Practices,sub_topic
+T0397,R Interview Questions,sub_topic
+T0398,SQL in Production,sub_topic
+T0399,Web Development Best Practices,sub_topic
+T0400,REST Security,sub_topic
+T0401,Terraform Interview Questions,sub_topic
+T0402,Python for Beginners,sub_topic
+T0403,APIs Advanced,sub_topic
+T0404,Angular Fundamentals,sub_topic
+T0405,PHP Security,sub_topic
+T0406,TensorFlow Design Patterns,sub_topic
+T0407,Terraform for Beginners,sub_topic
+T0408,Spring Boot Testing,sub_topic
+T0409,TypeScript Advanced,sub_topic
+T0410,Azure Performance Tuning,sub_topic
+T0411,REST Performance Tuning,sub_topic
+T0412,TensorFlow Security,sub_topic
+T0413,SQL Interview Questions,sub_topic
+T0414,Docker Testing,sub_topic
+T0415,MongoDB Fundamentals,sub_topic
+T0416,PyTorch Design Patterns,sub_topic
+T0417,Python Best Practices,sub_topic
+T0418,React in Production,sub_topic
+T0419,Kubernetes Interview Questions,sub_topic
+T0420,Memory Management Design Patterns,sub_topic
+T0421,FastAPI for Beginners,sub_topic
+T0422,Elasticsearch Security,sub_topic
+T0423,Next.js Security,sub_topic
+T0424,Kotlin Design Patterns,sub_topic
+T0425,JavaScript Design Patterns,sub_topic
+T0426,C Performance Tuning,sub_topic
+T0427,Kotlin Interview Questions,sub_topic
+T0428,Kubernetes Advanced,sub_topic
+T0429,APIs Fundamentals,sub_topic
+T0430,Git for Beginners,sub_topic
+T0431,Hardware Performance Tuning,sub_topic
+T0432,Laravel Design Patterns,sub_topic
+T0433,Deep Learning Advanced,sub_topic
+T0434,Terraform Best Practices,sub_topic
+T0435,Jenkins for Beginners,sub_topic
+T0436,Kotlin Security,sub_topic
+T0437,Deep Learning Security,sub_topic
+T0438,Express.js Interview Questions,sub_topic
+T0439,Linux for Beginners,sub_topic
+T0440,Svelte Advanced,sub_topic
+T0441,Angular in Production,sub_topic
+T0442,.NET for Beginners,sub_topic
+T0443,Software Engineering for Beginners,sub_topic
+T0444,Mobile Development Performance Tuning,sub_topic
+T0445,Networking Testing,sub_topic
+T0446,Rust Performance Tuning,sub_topic
+T0447,Go Interview Questions,sub_topic
+T0448,Caching Advanced,sub_topic
+T0449,System Design Fundamentals,sub_topic
+T0450,Docker Advanced,sub_topic
+T0451,PHP Testing,sub_topic
+T0452,Mobile Development Security,sub_topic
+T0453,JavaScript Performance Tuning,sub_topic
+T0454,Vue Fundamentals,sub_topic
+T0455,System Design Advanced,sub_topic
+T0456,Caching for Beginners,sub_topic
+T0457,JavaScript Best Practices,sub_topic
+T0458,Career for Beginners,sub_topic
+T0459,GraphQL Interview Questions,sub_topic
+T0460,Docker Design Patterns,sub_topic
+T0461,HLD Interview Questions,sub_topic
+T0462,Data Science Interview Questions,sub_topic
+T0463,Rust Interview Questions,sub_topic
+T0464,DSA in Production,sub_topic
+T0465,Ktor Testing,sub_topic
+T0466,Vue Interview Questions,sub_topic
+T0467,Swift Testing,sub_topic
+T0468,Angular Interview Questions,sub_topic
+T0469,MongoDB Design Patterns,sub_topic
+T0470,Swift in Production,sub_topic
+T0471,Cybersecurity Design Patterns,sub_topic
+T0472,GraphQL Fundamentals,sub_topic
+T0473,GraphQL in Production,sub_topic
+T0474,Flask Best Practices,sub_topic
+T0475,React for Beginners,sub_topic
+T0476,Kotlin in Production,sub_topic
+T0477,Cloud Security,sub_topic
+T0478,Hardware for Beginners,sub_topic
+T0479,Frontend Design Patterns,sub_topic
+T0480,Django Performance Tuning,sub_topic
+T0481,GraphQL Best Practices,sub_topic
+T0482,Distributed Systems Testing,sub_topic
+T0483,Algorithms Best Practices,sub_topic
+T0484,Nginx Testing,sub_topic
+T0485,Caching Security,sub_topic
+T0486,LLD for Beginners,sub_topic
+T0487,.NET Testing,sub_topic
+T0488,TypeScript Performance Tuning,sub_topic
+T0489,R Security,sub_topic
+T0490,Scala in Production,sub_topic
+T0491,Swift for Beginners,sub_topic
+T0492,Load Balancing for Beginners,sub_topic
+T0493,PyTorch Performance Tuning,sub_topic
+T0494,Linux Fundamentals,sub_topic
+T0495,LLD Fundamentals,sub_topic
+T0496,Nginx Best Practices,sub_topic
+T0497,DSA Advanced,sub_topic
+T0498,C++ Interview Questions,sub_topic
+T0499,C# in Production,sub_topic
+T0500,Algorithms for Beginners,sub_topic
+T0501,Career Fundamentals,sub_topic
+T0502,Swift Fundamentals,sub_topic
+T0503,Vue Security,sub_topic
+T0504,Software Engineering Security,sub_topic
+T0505,PostgreSQL Advanced,sub_topic
+T0506,SQL Performance Tuning,sub_topic
+T0507,REST Fundamentals,sub_topic
+T0508,Career Interview Questions,sub_topic
+T0509,Swift Security,sub_topic
+T0510,DevOps Fundamentals,sub_topic
+T0511,C Interview Questions,sub_topic
+T0512,Mobile Development Interview Questions,sub_topic
+T0513,React Fundamentals,sub_topic
+T0514,Kafka Security,sub_topic
+T0515,Data Structures Performance Tuning,sub_topic
+T0516,Data Science for Beginners,sub_topic
+T0517,Docker Interview Questions,sub_topic
+T0518,Azure Advanced,sub_topic
+T0519,Nginx Design Patterns,sub_topic
+T0520,AI/ML in Production,sub_topic

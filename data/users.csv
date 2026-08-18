@@ -1,0 +1,504 @@
+user_id,persona,true_primary_interest,primary_language_pref,secondary_language_pref,skill_level,joined_at
+U000001,ai_focused,AI / Machine Learning,Telugu,English,Beginner,2025-02-04T19:44:24
+U000002,mixed_interest,Mixed Technology Interests,Telugu,Kannada,Advanced,2025-05-03T07:16:16
+U000003,frontend_focused,Frontend / Web Development,English,Malayalam,Intermediate,2025-01-31T08:12:56
+U000004,entertainment_heavy,Entertainment,English,Malayalam,Intermediate,2025-02-27T21:40:02
+U000005,backend_focused,Backend Engineering,Hindi,English,Beginner,2025-02-05T07:22:47
+U000006,mixed_interest,Mixed Technology Interests,Malayalam,Kannada,Intermediate,2025-05-02T19:19:22
+U000007,mixed_interest,Mixed Technology Interests,English,Hindi,Advanced,2025-01-02T11:39:33
+U000008,entertainment_heavy,Entertainment,English,Telugu,Intermediate,2025-04-12T09:03:41
+U000009,entertainment_heavy,Entertainment,Telugu,Bengali,Intermediate,2025-05-14T14:30:04
+U000010,entertainment_heavy,Entertainment,Malayalam,Hindi,Intermediate,2025-04-22T17:04:27
+U000011,cybersecurity_focused,Cybersecurity,Telugu,Tamil,Advanced,2025-03-15T11:11:53
+U000012,backend_focused,Backend Engineering,English,Hindi,Intermediate,2025-02-22T20:35:58
+U000013,hardware_focused,Hardware / Developer Gear,English,Kannada,Advanced,2025-01-04T23:56:02
+U000014,ai_focused,AI / Machine Learning,English,Tamil,Intermediate,2025-04-25T20:27:11
+U000015,mixed_interest,Mixed Technology Interests,Telugu,Tamil,Advanced,2025-03-19T14:47:21
+U000016,mixed_interest,Mixed Technology Interests,Telugu,Hindi,Beginner,2025-03-23T03:08:27
+U000017,hardware_focused,Hardware / Developer Gear,Tamil,Telugu,Beginner,2025-03-29T22:08:25
+U000018,ai_focused,AI / Machine Learning,Kannada,Malayalam,Advanced,2025-02-10T21:05:32
+U000019,hardware_focused,Hardware / Developer Gear,English,Bengali,Intermediate,2025-04-12T00:19:16
+U000020,hardware_focused,Hardware / Developer Gear,English,Kannada,Advanced,2025-01-02T09:24:50
+U000021,frontend_focused,Frontend / Web Development,English,Hindi,Beginner,2025-05-16T22:02:36
+U000022,mixed_interest,Mixed Technology Interests,Hindi,Kannada,Beginner,2025-05-11T05:54:13
+U000023,ai_focused,AI / Machine Learning,Telugu,Bengali,Beginner,2025-02-27T16:59:26
+U000024,backend_focused,Backend Engineering,Telugu,Bengali,Beginner,2025-05-19T07:11:22
+U000025,backend_focused,Backend Engineering,English,Bengali,Advanced,2025-03-15T19:09:35
+U000026,cybersecurity_focused,Cybersecurity,Telugu,Kannada,Beginner,2025-05-25T23:21:44
+U000027,mixed_interest,Mixed Technology Interests,English,Kannada,Beginner,2025-01-13T08:54:06
+U000028,backend_focused,Backend Engineering,English,Telugu,Beginner,2025-05-22T18:53:31
+U000029,ai_focused,AI / Machine Learning,English,Kannada,Beginner,2025-02-13T21:53:56
+U000030,mixed_interest,Mixed Technology Interests,Kannada,Malayalam,Beginner,2025-02-18T04:07:32
+U000031,mixed_interest,Mixed Technology Interests,Kannada,Telugu,Beginner,2025-03-09T20:51:11
+U000032,cybersecurity_focused,Cybersecurity,Tamil,Bengali,Beginner,2025-04-29T10:51:28
+U000033,hardware_focused,Hardware / Developer Gear,English,Kannada,Intermediate,2025-03-05T15:32:49
+U000034,backend_focused,Backend Engineering,Hindi,Telugu,Intermediate,2025-02-28T23:22:33
+U000035,ai_focused,AI / Machine Learning,Hindi,Tamil,Intermediate,2025-01-22T15:18:50
+U000036,entertainment_heavy,Entertainment,English,Kannada,Intermediate,2025-02-09T12:33:45
+U000037,hardware_focused,Hardware / Developer Gear,English,Bengali,Intermediate,2025-01-16T01:12:38
+U000038,ai_focused,AI / Machine Learning,English,Hindi,Intermediate,2025-01-11T08:02:33
+U000039,ai_focused,AI / Machine Learning,Telugu,Tamil,Beginner,2025-01-21T02:05:26
+U000040,mixed_interest,Mixed Technology Interests,Bengali,Kannada,Advanced,2025-02-12T22:55:07
+U000041,mixed_interest,Mixed Technology Interests,Malayalam,Tamil,Beginner,2025-01-15T16:16:40
+U000042,ai_focused,AI / Machine Learning,Hindi,Bengali,Intermediate,2025-05-03T11:01:15
+U000043,frontend_focused,Frontend / Web Development,English,Kannada,Advanced,2025-05-08T23:09:41
+U000044,entertainment_heavy,Entertainment,English,Hindi,Intermediate,2025-03-30T02:14:30
+U000045,mixed_interest,Mixed Technology Interests,Hindi,Malayalam,Intermediate,2025-05-27T16:54:37
+U000046,mixed_interest,Mixed Technology Interests,English,Telugu,Beginner,2025-01-15T06:05:07
+U000047,frontend_focused,Frontend / Web Development,Telugu,English,Beginner,2025-04-16T02:38:20
+U000048,ai_focused,AI / Machine Learning,Telugu,Malayalam,Beginner,2025-01-09T11:35:29
+U000049,frontend_focused,Frontend / Web Development,English,Kannada,Intermediate,2025-05-13T21:59:31
+U000050,backend_focused,Backend Engineering,Malayalam,Tamil,Intermediate,2025-04-18T09:25:48
+U000051,mixed_interest,Mixed Technology Interests,Telugu,Kannada,Beginner,2025-03-21T02:36:29
+U000052,ai_focused,AI / Machine Learning,Telugu,Bengali,Advanced,2025-03-28T09:55:41
+U000053,backend_focused,Backend Engineering,Bengali,Telugu,Beginner,2025-04-22T07:08:24
+U000054,ai_focused,AI / Machine Learning,English,Hindi,Beginner,2025-03-14T19:51:37
+U000055,mixed_interest,Mixed Technology Interests,English,Telugu,Beginner,2025-01-29T11:00:32
+U000056,frontend_focused,Frontend / Web Development,English,Hindi,Intermediate,2025-01-18T02:04:19
+U000057,frontend_focused,Frontend / Web Development,Kannada,Bengali,Beginner,2025-04-01T22:03:01
+U000058,frontend_focused,Frontend / Web Development,English,Telugu,Intermediate,2025-05-15T23:29:13
+U000059,backend_focused,Backend Engineering,Hindi,Bengali,Intermediate,2025-05-31T14:21:10
+U000060,ai_focused,AI / Machine Learning,English,Tamil,Beginner,2025-01-16T19:08:59
+U000061,ai_focused,AI / Machine Learning,Hindi,Telugu,Advanced,2025-04-09T14:10:21
+U000062,ai_focused,AI / Machine Learning,Hindi,Telugu,Beginner,2025-02-25T13:06:41
+U000063,cybersecurity_focused,Cybersecurity,English,Tamil,Beginner,2025-01-03T01:48:51
+U000064,mixed_interest,Mixed Technology Interests,Tamil,English,Advanced,2025-02-24T04:32:34
+U000065,mixed_interest,Mixed Technology Interests,English,Telugu,Beginner,2025-02-20T20:46:08
+U000066,mixed_interest,Mixed Technology Interests,English,Hindi,Intermediate,2025-02-11T06:05:45
+U000067,cybersecurity_focused,Cybersecurity,Kannada,Tamil,Intermediate,2025-05-23T12:49:23
+U000068,mixed_interest,Mixed Technology Interests,Telugu,Bengali,Advanced,2025-04-26T10:11:22
+U000069,entertainment_heavy,Entertainment,English,Kannada,Beginner,2025-01-27T13:15:44
+U000070,mixed_interest,Mixed Technology Interests,English,Bengali,Beginner,2025-04-20T00:35:19
+U000071,hardware_focused,Hardware / Developer Gear,Telugu,Kannada,Advanced,2025-05-16T09:53:03
+U000072,backend_focused,Backend Engineering,English,Kannada,Beginner,2025-04-07T04:04:19
+U000073,frontend_focused,Frontend / Web Development,Telugu,Kannada,Advanced,2025-04-04T12:17:10
+U000074,entertainment_heavy,Entertainment,Telugu,English,Intermediate,2025-05-01T05:52:08
+U000075,backend_focused,Backend Engineering,Malayalam,Hindi,Intermediate,2025-04-16T04:54:36
+U000076,ai_focused,AI / Machine Learning,Telugu,Malayalam,Intermediate,2025-03-15T15:43:43
+U000077,ai_focused,AI / Machine Learning,Hindi,Bengali,Intermediate,2025-03-19T16:25:47
+U000078,ai_focused,AI / Machine Learning,Telugu,Bengali,Intermediate,2025-01-26T02:29:15
+U000079,frontend_focused,Frontend / Web Development,Tamil,Kannada,Intermediate,2025-01-21T16:14:36
+U000080,entertainment_heavy,Entertainment,Telugu,Hindi,Intermediate,2025-05-01T01:36:23
+U000081,backend_focused,Backend Engineering,Tamil,English,Intermediate,2025-02-18T11:07:23
+U000082,frontend_focused,Frontend / Web Development,Tamil,Kannada,Intermediate,2025-04-05T17:58:41
+U000083,ai_focused,AI / Machine Learning,Telugu,Bengali,Advanced,2025-01-27T18:22:54
+U000084,backend_focused,Backend Engineering,Bengali,Telugu,Beginner,2025-02-28T12:07:46
+U000085,cybersecurity_focused,Cybersecurity,Tamil,Telugu,Intermediate,2025-05-08T12:54:32
+U000086,ai_focused,AI / Machine Learning,Malayalam,Kannada,Intermediate,2025-03-15T15:20:07
+U000087,cybersecurity_focused,Cybersecurity,English,Kannada,Beginner,2025-04-21T10:47:27
+U000088,cybersecurity_focused,Cybersecurity,Bengali,English,Beginner,2025-02-25T22:23:44
+U000089,mixed_interest,Mixed Technology Interests,English,Bengali,Intermediate,2025-02-20T05:26:06
+U000090,mixed_interest,Mixed Technology Interests,Hindi,Kannada,Intermediate,2025-02-20T00:36:32
+U000091,frontend_focused,Frontend / Web Development,Tamil,Hindi,Intermediate,2025-05-21T18:12:21
+U000092,mixed_interest,Mixed Technology Interests,Telugu,Bengali,Beginner,2025-05-10T00:40:54
+U000093,ai_focused,AI / Machine Learning,Telugu,Bengali,Intermediate,2025-05-07T03:47:21
+U000094,mixed_interest,Mixed Technology Interests,English,Bengali,Beginner,2025-04-09T09:57:18
+U000095,frontend_focused,Frontend / Web Development,Tamil,Malayalam,Beginner,2025-03-03T23:35:41
+U000096,backend_focused,Backend Engineering,English,Tamil,Beginner,2025-02-09T01:59:07
+U000097,ai_focused,AI / Machine Learning,Hindi,Tamil,Intermediate,2025-05-13T09:17:19
+U000098,backend_focused,Backend Engineering,Malayalam,Hindi,Intermediate,2025-01-10T05:37:59
+U000099,frontend_focused,Frontend / Web Development,Hindi,Malayalam,Beginner,2025-03-03T22:51:39
+U000100,backend_focused,Backend Engineering,Tamil,Malayalam,Beginner,2025-01-27T20:01:38
+U000101,mixed_interest,Mixed Technology Interests,Hindi,Malayalam,Beginner,2025-01-07T17:22:33
+U000102,entertainment_heavy,Entertainment,English,Kannada,Beginner,2025-01-28T01:40:48
+U000103,cybersecurity_focused,Cybersecurity,English,Kannada,Intermediate,2025-03-30T23:17:43
+U000104,frontend_focused,Frontend / Web Development,Tamil,English,Intermediate,2025-03-17T17:42:01
+U000105,frontend_focused,Frontend / Web Development,Kannada,Telugu,Beginner,2025-04-17T13:15:05
+U000106,backend_focused,Backend Engineering,English,Kannada,Advanced,2025-04-25T17:48:44
+U000107,cybersecurity_focused,Cybersecurity,Kannada,English,Beginner,2025-01-04T11:22:42
+U000108,entertainment_heavy,Entertainment,Kannada,Tamil,Advanced,2025-01-13T06:11:50
+U000109,ai_focused,AI / Machine Learning,Kannada,English,Beginner,2025-05-06T14:38:06
+U000110,entertainment_heavy,Entertainment,Kannada,Bengali,Intermediate,2025-01-06T07:12:21
+U000111,cybersecurity_focused,Cybersecurity,English,Kannada,Beginner,2025-03-17T12:21:11
+U000112,ai_focused,AI / Machine Learning,English,Kannada,Intermediate,2025-03-12T09:13:17
+U000113,hardware_focused,Hardware / Developer Gear,English,Tamil,Intermediate,2025-03-19T03:20:55
+U000114,cybersecurity_focused,Cybersecurity,Telugu,English,Intermediate,2025-01-11T12:39:33
+U000115,backend_focused,Backend Engineering,Hindi,Kannada,Beginner,2025-04-02T21:56:34
+U000116,frontend_focused,Frontend / Web Development,English,Telugu,Advanced,2025-04-03T16:02:03
+U000117,cybersecurity_focused,Cybersecurity,English,Bengali,Advanced,2025-04-25T06:13:05
+U000118,hardware_focused,Hardware / Developer Gear,English,Kannada,Beginner,2025-02-21T06:44:51
+U000119,frontend_focused,Frontend / Web Development,Hindi,English,Intermediate,2025-05-07T07:29:44
+U000120,backend_focused,Backend Engineering,Hindi,Bengali,Advanced,2025-03-10T18:35:46
+U000121,frontend_focused,Frontend / Web Development,Telugu,English,Beginner,2025-05-07T10:56:59
+U000122,mixed_interest,Mixed Technology Interests,Bengali,Kannada,Intermediate,2025-02-18T13:55:30
+U000123,mixed_interest,Mixed Technology Interests,Hindi,Malayalam,Beginner,2025-03-13T23:55:01
+U000124,cybersecurity_focused,Cybersecurity,English,Malayalam,Advanced,2025-05-06T15:41:43
+U000125,frontend_focused,Frontend / Web Development,Hindi,English,Beginner,2025-02-24T02:11:10
+U000126,ai_focused,AI / Machine Learning,English,Telugu,Intermediate,2025-02-06T21:41:14
+U000127,mixed_interest,Mixed Technology Interests,Tamil,English,Intermediate,2025-05-21T08:00:59
+U000128,ai_focused,AI / Machine Learning,Kannada,Malayalam,Intermediate,2025-04-06T12:41:07
+U000129,entertainment_heavy,Entertainment,English,Tamil,Intermediate,2025-01-26T18:07:49
+U000130,hardware_focused,Hardware / Developer Gear,English,Hindi,Beginner,2025-03-11T10:27:24
+U000131,mixed_interest,Mixed Technology Interests,Kannada,Tamil,Intermediate,2025-05-05T08:52:32
+U000132,frontend_focused,Frontend / Web Development,Telugu,Kannada,Beginner,2025-05-03T11:29:49
+U000133,mixed_interest,Mixed Technology Interests,Telugu,Bengali,Advanced,2025-02-16T12:32:08
+U000134,mixed_interest,Mixed Technology Interests,Malayalam,Tamil,Beginner,2025-04-19T15:23:17
+U000135,ai_focused,AI / Machine Learning,Tamil,Kannada,Intermediate,2025-04-15T00:05:03
+U000136,ai_focused,AI / Machine Learning,Malayalam,Kannada,Intermediate,2025-05-05T00:56:46
+U000137,backend_focused,Backend Engineering,Hindi,Kannada,Beginner,2025-04-25T18:17:04
+U000138,ai_focused,AI / Machine Learning,English,Malayalam,Beginner,2025-01-12T02:54:59
+U000139,entertainment_heavy,Entertainment,English,Hindi,Intermediate,2025-03-15T21:20:51
+U000140,cybersecurity_focused,Cybersecurity,Kannada,English,Beginner,2025-02-14T12:16:44
+U000141,mixed_interest,Mixed Technology Interests,Kannada,Malayalam,Beginner,2025-03-26T14:56:39
+U000142,entertainment_heavy,Entertainment,Kannada,English,Intermediate,2025-03-28T09:51:26
+U000143,mixed_interest,Mixed Technology Interests,English,Hindi,Beginner,2025-02-05T14:53:39
+U000144,entertainment_heavy,Entertainment,Telugu,Hindi,Advanced,2025-04-22T05:04:31
+U000145,mixed_interest,Mixed Technology Interests,Tamil,English,Beginner,2025-02-05T12:02:01
+U000146,backend_focused,Backend Engineering,Hindi,Telugu,Advanced,2025-05-20T23:21:56
+U000147,cybersecurity_focused,Cybersecurity,English,Hindi,Intermediate,2025-02-04T09:02:14
+U000148,ai_focused,AI / Machine Learning,English,Hindi,Beginner,2025-02-03T15:02:30
+U000149,entertainment_heavy,Entertainment,Telugu,English,Advanced,2025-01-22T09:34:50
+U000150,backend_focused,Backend Engineering,Hindi,Malayalam,Intermediate,2025-01-19T17:54:42
+U000151,mixed_interest,Mixed Technology Interests,English,Telugu,Intermediate,2025-04-17T06:35:35
+U000152,cybersecurity_focused,Cybersecurity,Hindi,English,Beginner,2025-02-26T06:45:09
+U000153,entertainment_heavy,Entertainment,Telugu,Malayalam,Advanced,2025-05-14T13:44:28
+U000154,backend_focused,Backend Engineering,English,Kannada,Beginner,2025-02-21T21:58:51
+U000155,ai_focused,AI / Machine Learning,Telugu,Bengali,Beginner,2025-02-11T23:10:37
+U000156,frontend_focused,Frontend / Web Development,Hindi,Bengali,Beginner,2025-02-28T19:32:53
+U000157,mixed_interest,Mixed Technology Interests,Telugu,Tamil,Intermediate,2025-01-25T19:45:06
+U000158,backend_focused,Backend Engineering,Kannada,English,Beginner,2025-04-27T19:28:16
+U000159,entertainment_heavy,Entertainment,Kannada,English,Intermediate,2025-01-08T11:28:02
+U000160,cybersecurity_focused,Cybersecurity,Telugu,Bengali,Advanced,2025-05-01T16:20:17
+U000161,frontend_focused,Frontend / Web Development,English,Hindi,Advanced,2025-03-06T07:49:32
+U000162,cybersecurity_focused,Cybersecurity,Telugu,Hindi,Intermediate,2025-03-17T17:58:33
+U000163,backend_focused,Backend Engineering,Bengali,Malayalam,Advanced,2025-04-14T21:53:51
+U000164,entertainment_heavy,Entertainment,English,Hindi,Advanced,2025-04-25T14:54:15
+U000165,cybersecurity_focused,Cybersecurity,Hindi,Bengali,Beginner,2025-04-08T04:35:57
+U000166,hardware_focused,Hardware / Developer Gear,Telugu,Hindi,Advanced,2025-04-24T19:11:18
+U000167,mixed_interest,Mixed Technology Interests,Telugu,Kannada,Advanced,2025-05-19T03:14:00
+U000168,ai_focused,AI / Machine Learning,Malayalam,Kannada,Beginner,2025-04-05T05:33:41
+U000169,ai_focused,AI / Machine Learning,Hindi,Bengali,Beginner,2025-05-04T01:31:57
+U000170,backend_focused,Backend Engineering,English,Kannada,Intermediate,2025-01-12T13:54:03
+U000171,frontend_focused,Frontend / Web Development,English,Malayalam,Intermediate,2025-05-24T01:05:01
+U000172,cybersecurity_focused,Cybersecurity,English,Malayalam,Intermediate,2025-01-23T06:37:32
+U000173,hardware_focused,Hardware / Developer Gear,Kannada,Hindi,Beginner,2025-03-20T08:23:56
+U000174,hardware_focused,Hardware / Developer Gear,Malayalam,Telugu,Intermediate,2025-03-31T07:29:29
+U000175,mixed_interest,Mixed Technology Interests,Malayalam,Bengali,Beginner,2025-05-09T23:22:11
+U000176,entertainment_heavy,Entertainment,Telugu,Kannada,Beginner,2025-01-10T02:35:23
+U000177,mixed_interest,Mixed Technology Interests,Kannada,Hindi,Beginner,2025-05-07T07:53:27
+U000178,mixed_interest,Mixed Technology Interests,Telugu,Malayalam,Intermediate,2025-03-27T04:09:11
+U000179,entertainment_heavy,Entertainment,Tamil,Malayalam,Intermediate,2025-03-28T04:00:41
+U000180,entertainment_heavy,Entertainment,English,Malayalam,Advanced,2025-04-14T20:47:08
+U000181,hardware_focused,Hardware / Developer Gear,Kannada,Bengali,Beginner,2025-01-26T05:33:54
+U000182,mixed_interest,Mixed Technology Interests,Telugu,Tamil,Advanced,2025-03-05T17:47:27
+U000183,cybersecurity_focused,Cybersecurity,Kannada,Malayalam,Intermediate,2025-05-27T07:52:45
+U000184,ai_focused,AI / Machine Learning,Telugu,English,Beginner,2025-01-25T15:43:39
+U000185,frontend_focused,Frontend / Web Development,Hindi,Tamil,Beginner,2025-02-20T11:41:17
+U000186,frontend_focused,Frontend / Web Development,Kannada,Malayalam,Intermediate,2025-04-04T12:02:00
+U000187,backend_focused,Backend Engineering,English,Bengali,Intermediate,2025-04-21T02:14:25
+U000188,mixed_interest,Mixed Technology Interests,Malayalam,Telugu,Intermediate,2025-01-20T11:21:42
+U000189,entertainment_heavy,Entertainment,English,Malayalam,Beginner,2025-02-09T23:40:39
+U000190,hardware_focused,Hardware / Developer Gear,Malayalam,Telugu,Advanced,2025-03-13T19:37:40
+U000191,cybersecurity_focused,Cybersecurity,Telugu,Bengali,Beginner,2025-05-18T12:11:46
+U000192,cybersecurity_focused,Cybersecurity,English,Malayalam,Beginner,2025-05-06T11:07:39
+U000193,backend_focused,Backend Engineering,Kannada,Telugu,Beginner,2025-04-13T16:54:35
+U000194,backend_focused,Backend Engineering,Malayalam,English,Beginner,2025-04-17T04:38:31
+U000195,mixed_interest,Mixed Technology Interests,English,Kannada,Beginner,2025-01-22T08:05:46
+U000196,backend_focused,Backend Engineering,Hindi,English,Beginner,2025-05-01T02:19:55
+U000197,backend_focused,Backend Engineering,English,Hindi,Intermediate,2025-03-28T15:17:54
+U000198,entertainment_heavy,Entertainment,English,Bengali,Advanced,2025-05-14T02:14:12
+U000199,entertainment_heavy,Entertainment,Tamil,Bengali,Beginner,2025-03-29T16:25:14
+U000200,ai_focused,AI / Machine Learning,Malayalam,Telugu,Advanced,2025-03-20T18:27:00
+U000201,mixed_interest,Mixed Technology Interests,Hindi,Tamil,Beginner,2025-03-16T21:22:24
+U000202,ai_focused,AI / Machine Learning,Telugu,Hindi,Intermediate,2025-04-10T04:17:02
+U000203,cybersecurity_focused,Cybersecurity,English,Tamil,Intermediate,2025-03-03T00:11:42
+U000204,entertainment_heavy,Entertainment,Tamil,English,Intermediate,2025-01-07T19:07:50
+U000205,hardware_focused,Hardware / Developer Gear,Telugu,Tamil,Beginner,2025-03-27T20:00:31
+U000206,backend_focused,Backend Engineering,English,Malayalam,Intermediate,2025-05-30T01:31:36
+U000207,mixed_interest,Mixed Technology Interests,Telugu,English,Beginner,2025-05-19T06:01:16
+U000208,cybersecurity_focused,Cybersecurity,English,Tamil,Advanced,2025-04-10T19:00:39
+U000209,frontend_focused,Frontend / Web Development,English,Tamil,Intermediate,2025-05-09T02:56:42
+U000210,mixed_interest,Mixed Technology Interests,Tamil,English,Beginner,2025-02-10T22:19:27
+U000211,mixed_interest,Mixed Technology Interests,English,Bengali,Beginner,2025-05-28T10:20:59
+U000212,ai_focused,AI / Machine Learning,English,Bengali,Intermediate,2025-02-05T23:01:04
+U000213,entertainment_heavy,Entertainment,Malayalam,Bengali,Beginner,2025-04-26T12:46:33
+U000214,ai_focused,AI / Machine Learning,English,Malayalam,Beginner,2025-01-02T08:16:32
+U000215,entertainment_heavy,Entertainment,Tamil,English,Advanced,2025-01-26T08:47:28
+U000216,frontend_focused,Frontend / Web Development,Tamil,English,Advanced,2025-04-07T05:27:10
+U000217,backend_focused,Backend Engineering,English,Bengali,Beginner,2025-05-21T14:40:37
+U000218,frontend_focused,Frontend / Web Development,Hindi,Bengali,Intermediate,2025-04-22T11:41:02
+U000219,hardware_focused,Hardware / Developer Gear,English,Kannada,Intermediate,2025-05-28T03:05:33
+U000220,mixed_interest,Mixed Technology Interests,Malayalam,English,Intermediate,2025-01-31T09:52:35
+U000221,mixed_interest,Mixed Technology Interests,Telugu,Malayalam,Beginner,2025-03-03T16:29:29
+U000222,ai_focused,AI / Machine Learning,English,Hindi,Intermediate,2025-04-25T21:37:36
+U000223,cybersecurity_focused,Cybersecurity,Malayalam,Kannada,Beginner,2025-02-24T08:05:59
+U000224,frontend_focused,Frontend / Web Development,Hindi,English,Intermediate,2025-05-07T02:30:59
+U000225,mixed_interest,Mixed Technology Interests,Telugu,English,Intermediate,2025-01-23T15:43:11
+U000226,mixed_interest,Mixed Technology Interests,English,Telugu,Advanced,2025-05-21T04:45:15
+U000227,frontend_focused,Frontend / Web Development,English,Kannada,Beginner,2025-02-22T15:24:25
+U000228,ai_focused,AI / Machine Learning,Hindi,Tamil,Advanced,2025-05-02T21:45:15
+U000229,entertainment_heavy,Entertainment,Malayalam,Telugu,Beginner,2025-04-01T14:09:38
+U000230,entertainment_heavy,Entertainment,English,Malayalam,Beginner,2025-03-12T12:57:13
+U000231,cybersecurity_focused,Cybersecurity,English,Bengali,Intermediate,2025-05-05T12:53:35
+U000232,mixed_interest,Mixed Technology Interests,Hindi,Telugu,Beginner,2025-02-24T07:38:48
+U000233,ai_focused,AI / Machine Learning,English,Hindi,Intermediate,2025-03-08T12:37:40
+U000234,hardware_focused,Hardware / Developer Gear,English,Bengali,Beginner,2025-05-12T17:07:29
+U000235,frontend_focused,Frontend / Web Development,Malayalam,Hindi,Advanced,2025-05-15T20:43:50
+U000236,backend_focused,Backend Engineering,Hindi,Malayalam,Beginner,2025-01-30T18:03:15
+U000237,entertainment_heavy,Entertainment,English,Bengali,Advanced,2025-02-15T05:42:09
+U000238,backend_focused,Backend Engineering,Hindi,English,Beginner,2025-04-03T21:44:50
+U000239,mixed_interest,Mixed Technology Interests,English,Kannada,Beginner,2025-02-23T10:58:47
+U000240,ai_focused,AI / Machine Learning,Malayalam,Hindi,Intermediate,2025-02-13T00:13:00
+U000241,ai_focused,AI / Machine Learning,Bengali,Kannada,Intermediate,2025-05-17T18:30:52
+U000242,mixed_interest,Mixed Technology Interests,Tamil,Hindi,Intermediate,2025-02-12T13:07:31
+U000243,backend_focused,Backend Engineering,English,Malayalam,Intermediate,2025-04-18T15:53:57
+U000244,frontend_focused,Frontend / Web Development,Telugu,Tamil,Beginner,2025-03-09T16:08:10
+U000245,frontend_focused,Frontend / Web Development,English,Malayalam,Beginner,2025-03-14T04:12:17
+U000246,frontend_focused,Frontend / Web Development,Telugu,Kannada,Beginner,2025-01-04T19:04:45
+U000247,entertainment_heavy,Entertainment,English,Bengali,Beginner,2025-03-24T14:58:28
+U000248,ai_focused,AI / Machine Learning,Hindi,English,Advanced,2025-03-21T09:29:38
+U000249,ai_focused,AI / Machine Learning,Hindi,Bengali,Beginner,2025-05-20T23:11:18
+U000250,frontend_focused,Frontend / Web Development,English,Bengali,Beginner,2025-03-07T13:49:55
+U000251,mixed_interest,Mixed Technology Interests,English,Bengali,Beginner,2025-03-09T13:07:35
+U000252,entertainment_heavy,Entertainment,English,Kannada,Intermediate,2025-03-05T19:13:07
+U000253,frontend_focused,Frontend / Web Development,Kannada,Tamil,Beginner,2025-01-30T15:33:14
+U000254,ai_focused,AI / Machine Learning,English,Bengali,Intermediate,2025-03-29T19:14:33
+U000255,cybersecurity_focused,Cybersecurity,English,Malayalam,Beginner,2025-04-24T12:40:46
+U000256,backend_focused,Backend Engineering,Kannada,Tamil,Beginner,2025-02-01T21:39:28
+U000257,ai_focused,AI / Machine Learning,Tamil,Telugu,Beginner,2025-03-27T04:17:46
+U000258,frontend_focused,Frontend / Web Development,English,Kannada,Beginner,2025-05-03T02:55:56
+U000259,hardware_focused,Hardware / Developer Gear,Tamil,Bengali,Beginner,2025-05-27T11:01:41
+U000260,entertainment_heavy,Entertainment,English,Malayalam,Intermediate,2025-04-28T20:20:13
+U000261,frontend_focused,Frontend / Web Development,English,Hindi,Beginner,2025-05-20T10:27:52
+U000262,entertainment_heavy,Entertainment,English,Kannada,Beginner,2025-03-07T07:27:35
+U000263,frontend_focused,Frontend / Web Development,English,Malayalam,Beginner,2025-04-06T20:04:30
+U000264,backend_focused,Backend Engineering,Telugu,English,Beginner,2025-01-11T17:55:38
+U000265,frontend_focused,Frontend / Web Development,English,Tamil,Advanced,2025-03-23T03:54:15
+U000266,backend_focused,Backend Engineering,English,Malayalam,Beginner,2025-04-02T22:50:00
+U000267,backend_focused,Backend Engineering,English,Telugu,Intermediate,2025-05-29T04:09:05
+U000268,ai_focused,AI / Machine Learning,Telugu,Bengali,Beginner,2025-02-11T02:49:41
+U000269,mixed_interest,Mixed Technology Interests,English,Telugu,Beginner,2025-01-19T20:28:28
+U000270,entertainment_heavy,Entertainment,English,Malayalam,Beginner,2025-03-02T08:13:56
+U000271,entertainment_heavy,Entertainment,Telugu,Malayalam,Advanced,2025-01-23T03:04:22
+U000272,backend_focused,Backend Engineering,Malayalam,Tamil,Beginner,2025-05-23T07:41:59
+U000273,backend_focused,Backend Engineering,Kannada,English,Beginner,2025-02-20T18:59:55
+U000274,ai_focused,AI / Machine Learning,Telugu,Bengali,Beginner,2025-05-20T05:57:42
+U000275,ai_focused,AI / Machine Learning,English,Tamil,Beginner,2025-03-14T18:26:32
+U000276,ai_focused,AI / Machine Learning,English,Telugu,Intermediate,2025-02-04T06:41:52
+U000277,ai_focused,AI / Machine Learning,Hindi,Tamil,Beginner,2025-05-21T04:40:57
+U000278,cybersecurity_focused,Cybersecurity,Hindi,Kannada,Advanced,2025-05-15T05:31:04
+U000279,ai_focused,AI / Machine Learning,Malayalam,English,Advanced,2025-02-13T07:04:29
+U000280,hardware_focused,Hardware / Developer Gear,Tamil,Malayalam,Intermediate,2025-02-16T09:30:52
+U000281,frontend_focused,Frontend / Web Development,English,Bengali,Intermediate,2025-01-16T23:00:11
+U000282,hardware_focused,Hardware / Developer Gear,English,Hindi,Intermediate,2025-01-26T09:14:01
+U000283,backend_focused,Backend Engineering,English,Hindi,Beginner,2025-01-02T14:43:50
+U000284,hardware_focused,Hardware / Developer Gear,English,Hindi,Beginner,2025-03-03T17:28:28
+U000285,backend_focused,Backend Engineering,English,Kannada,Intermediate,2025-04-02T04:45:44
+U000286,frontend_focused,Frontend / Web Development,English,Tamil,Intermediate,2025-02-08T23:32:16
+U000287,entertainment_heavy,Entertainment,English,Bengali,Beginner,2025-05-21T18:07:59
+U000288,cybersecurity_focused,Cybersecurity,Tamil,Bengali,Beginner,2025-04-27T05:44:30
+U000289,frontend_focused,Frontend / Web Development,English,Tamil,Intermediate,2025-01-18T12:42:51
+U000290,hardware_focused,Hardware / Developer Gear,English,Kannada,Advanced,2025-04-01T15:06:24
+U000291,mixed_interest,Mixed Technology Interests,Telugu,Kannada,Beginner,2025-04-26T20:59:38
+U000292,ai_focused,AI / Machine Learning,Telugu,Hindi,Beginner,2025-03-29T07:42:01
+U000293,mixed_interest,Mixed Technology Interests,English,Telugu,Advanced,2025-03-09T21:56:47
+U000294,ai_focused,AI / Machine Learning,English,Kannada,Advanced,2025-04-13T07:40:02
+U000295,entertainment_heavy,Entertainment,English,Tamil,Intermediate,2025-04-22T17:51:27
+U000296,ai_focused,AI / Machine Learning,Hindi,Malayalam,Beginner,2025-02-27T01:22:59
+U000297,entertainment_heavy,Entertainment,Telugu,Malayalam,Intermediate,2025-03-18T09:54:06
+U000298,frontend_focused,Frontend / Web Development,Bengali,Malayalam,Intermediate,2025-03-03T11:28:02
+U000299,cybersecurity_focused,Cybersecurity,Telugu,Bengali,Advanced,2025-01-13T11:56:35
+U000300,entertainment_heavy,Entertainment,English,Malayalam,Intermediate,2025-05-19T06:46:19
+U000301,backend_focused,Backend Engineering,English,Kannada,Beginner,2025-05-16T10:10:47
+U000302,backend_focused,Backend Engineering,English,Bengali,Advanced,2025-01-01T03:46:28
+U000303,hardware_focused,Hardware / Developer Gear,Telugu,Malayalam,Intermediate,2025-05-01T01:06:19
+U000304,cybersecurity_focused,Cybersecurity,English,Malayalam,Advanced,2025-02-14T05:58:07
+U000305,entertainment_heavy,Entertainment,English,Kannada,Intermediate,2025-05-10T14:49:33
+U000306,frontend_focused,Frontend / Web Development,Telugu,English,Advanced,2025-04-24T17:50:39
+U000307,mixed_interest,Mixed Technology Interests,Malayalam,Telugu,Beginner,2025-02-21T03:52:22
+U000308,backend_focused,Backend Engineering,Bengali,English,Advanced,2025-02-04T11:37:36
+U000309,mixed_interest,Mixed Technology Interests,English,Tamil,Advanced,2025-02-23T03:54:01
+U000310,mixed_interest,Mixed Technology Interests,English,Tamil,Beginner,2025-03-30T21:57:07
+U000311,mixed_interest,Mixed Technology Interests,Tamil,English,Advanced,2025-05-23T17:34:06
+U000312,backend_focused,Backend Engineering,English,Malayalam,Beginner,2025-03-19T03:45:32
+U000313,mixed_interest,Mixed Technology Interests,Tamil,Malayalam,Intermediate,2025-03-10T12:58:49
+U000314,cybersecurity_focused,Cybersecurity,English,Malayalam,Beginner,2025-03-10T04:58:36
+U000315,ai_focused,AI / Machine Learning,English,Hindi,Intermediate,2025-02-12T02:17:36
+U000316,ai_focused,AI / Machine Learning,English,Kannada,Advanced,2025-03-12T15:54:38
+U000317,frontend_focused,Frontend / Web Development,Telugu,Kannada,Intermediate,2025-04-06T16:50:41
+U000318,entertainment_heavy,Entertainment,English,Hindi,Intermediate,2025-03-23T09:59:28
+U000319,cybersecurity_focused,Cybersecurity,Malayalam,Hindi,Intermediate,2025-02-01T01:32:50
+U000320,ai_focused,AI / Machine Learning,Tamil,English,Beginner,2025-04-22T18:04:18
+U000321,cybersecurity_focused,Cybersecurity,English,Tamil,Beginner,2025-01-14T03:44:45
+U000322,entertainment_heavy,Entertainment,English,Kannada,Advanced,2025-01-07T19:55:57
+U000323,cybersecurity_focused,Cybersecurity,Kannada,English,Beginner,2025-02-02T20:25:22
+U000324,entertainment_heavy,Entertainment,English,Bengali,Intermediate,2025-03-13T01:53:04
+U000325,backend_focused,Backend Engineering,Tamil,Malayalam,Intermediate,2025-05-26T23:52:26
+U000326,hardware_focused,Hardware / Developer Gear,English,Kannada,Beginner,2025-01-12T04:41:13
+U000327,backend_focused,Backend Engineering,Hindi,Kannada,Beginner,2025-02-14T21:19:35
+U000328,backend_focused,Backend Engineering,Bengali,Hindi,Intermediate,2025-02-13T11:07:24
+U000329,frontend_focused,Frontend / Web Development,English,Hindi,Advanced,2025-03-05T14:46:39
+U000330,cybersecurity_focused,Cybersecurity,English,Tamil,Advanced,2025-02-13T03:29:21
+U000331,mixed_interest,Mixed Technology Interests,Malayalam,Telugu,Beginner,2025-01-26T20:55:32
+U000332,cybersecurity_focused,Cybersecurity,Bengali,Hindi,Beginner,2025-04-16T00:52:49
+U000333,backend_focused,Backend Engineering,Telugu,Bengali,Intermediate,2025-05-02T14:05:37
+U000334,entertainment_heavy,Entertainment,Telugu,Bengali,Beginner,2025-05-21T16:02:13
+U000335,entertainment_heavy,Entertainment,English,Kannada,Advanced,2025-05-30T21:37:25
+U000336,frontend_focused,Frontend / Web Development,Telugu,Tamil,Intermediate,2025-03-10T15:45:10
+U000337,backend_focused,Backend Engineering,English,Tamil,Advanced,2025-03-08T20:27:23
+U000338,entertainment_heavy,Entertainment,English,Malayalam,Beginner,2025-04-17T06:06:29
+U000339,ai_focused,AI / Machine Learning,Tamil,Hindi,Intermediate,2025-04-09T09:34:24
+U000340,entertainment_heavy,Entertainment,Hindi,Kannada,Intermediate,2025-05-03T01:34:22
+U000341,ai_focused,AI / Machine Learning,Tamil,English,Beginner,2025-04-10T12:31:31
+U000342,hardware_focused,Hardware / Developer Gear,English,Kannada,Intermediate,2025-03-01T19:44:12
+U000343,ai_focused,AI / Machine Learning,Telugu,Bengali,Intermediate,2025-01-13T09:54:19
+U000344,backend_focused,Backend Engineering,English,Telugu,Beginner,2025-02-08T09:51:55
+U000345,entertainment_heavy,Entertainment,English,Bengali,Intermediate,2025-05-27T18:39:59
+U000346,frontend_focused,Frontend / Web Development,Kannada,Hindi,Beginner,2025-02-13T10:03:23
+U000347,entertainment_heavy,Entertainment,Malayalam,Bengali,Advanced,2025-01-15T02:54:45
+U000348,ai_focused,AI / Machine Learning,Telugu,Kannada,Intermediate,2025-01-15T18:24:25
+U000349,mixed_interest,Mixed Technology Interests,Kannada,Hindi,Beginner,2025-04-28T02:05:54
+U000350,entertainment_heavy,Entertainment,Hindi,Tamil,Advanced,2025-03-27T14:25:54
+U000351,entertainment_heavy,Entertainment,Kannada,Hindi,Intermediate,2025-03-09T18:40:19
+U000352,backend_focused,Backend Engineering,English,Kannada,Intermediate,2025-02-21T19:22:35
+U000353,hardware_focused,Hardware / Developer Gear,English,Hindi,Advanced,2025-04-08T03:05:56
+U000354,entertainment_heavy,Entertainment,Telugu,Hindi,Beginner,2025-02-04T13:36:04
+U000355,mixed_interest,Mixed Technology Interests,Telugu,Bengali,Intermediate,2025-02-22T19:00:33
+U000356,entertainment_heavy,Entertainment,Malayalam,Bengali,Beginner,2025-04-03T09:02:47
+U000357,entertainment_heavy,Entertainment,English,Bengali,Beginner,2025-05-17T22:02:35
+U000358,mixed_interest,Mixed Technology Interests,Tamil,Hindi,Intermediate,2025-05-07T16:58:50
+U000359,mixed_interest,Mixed Technology Interests,English,Malayalam,Beginner,2025-01-22T08:23:07
+U000360,ai_focused,AI / Machine Learning,English,Hindi,Beginner,2025-01-11T10:04:54
+U000361,backend_focused,Backend Engineering,Telugu,Hindi,Intermediate,2025-05-21T04:10:34
+U000362,backend_focused,Backend Engineering,English,Hindi,Intermediate,2025-03-07T02:20:21
+U000363,cybersecurity_focused,Cybersecurity,Telugu,Hindi,Beginner,2025-05-25T14:41:55
+U000364,ai_focused,AI / Machine Learning,Hindi,Telugu,Intermediate,2025-02-20T02:32:15
+U000365,entertainment_heavy,Entertainment,Tamil,Bengali,Beginner,2025-01-26T20:42:39
+U000366,cybersecurity_focused,Cybersecurity,Tamil,Kannada,Beginner,2025-04-10T20:13:18
+U000367,entertainment_heavy,Entertainment,Telugu,Bengali,Beginner,2025-05-29T20:19:33
+U000368,backend_focused,Backend Engineering,English,Telugu,Intermediate,2025-01-25T18:54:59
+U000369,ai_focused,AI / Machine Learning,Bengali,English,Intermediate,2025-03-24T21:38:17
+U000370,backend_focused,Backend Engineering,Telugu,Malayalam,Beginner,2025-04-11T11:22:18
+U000371,backend_focused,Backend Engineering,Tamil,Kannada,Intermediate,2025-05-16T11:07:37
+U000372,frontend_focused,Frontend / Web Development,Hindi,Kannada,Beginner,2025-03-10T21:45:47
+U000373,entertainment_heavy,Entertainment,Tamil,Telugu,Intermediate,2025-01-14T11:05:29
+U000374,mixed_interest,Mixed Technology Interests,Hindi,Bengali,Intermediate,2025-01-22T01:11:57
+U000375,hardware_focused,Hardware / Developer Gear,Hindi,Malayalam,Intermediate,2025-02-13T23:09:38
+U000376,cybersecurity_focused,Cybersecurity,English,Telugu,Beginner,2025-03-06T10:33:53
+U000377,frontend_focused,Frontend / Web Development,Telugu,Kannada,Intermediate,2025-03-09T07:01:12
+U000378,backend_focused,Backend Engineering,Kannada,Hindi,Intermediate,2025-01-02T17:21:58
+U000379,mixed_interest,Mixed Technology Interests,Bengali,Kannada,Beginner,2025-01-10T11:51:37
+U000380,backend_focused,Backend Engineering,English,Bengali,Beginner,2025-05-01T22:45:37
+U000381,backend_focused,Backend Engineering,English,Bengali,Intermediate,2025-01-21T05:47:16
+U000382,hardware_focused,Hardware / Developer Gear,Hindi,Bengali,Advanced,2025-04-21T12:06:49
+U000383,ai_focused,AI / Machine Learning,Hindi,Bengali,Intermediate,2025-04-06T05:05:02
+U000384,ai_focused,AI / Machine Learning,English,Tamil,Intermediate,2025-05-23T22:33:25
+U000385,cybersecurity_focused,Cybersecurity,Malayalam,Telugu,Beginner,2025-01-25T14:46:27
+U000386,backend_focused,Backend Engineering,Tamil,Telugu,Beginner,2025-04-26T00:44:24
+U000387,entertainment_heavy,Entertainment,Kannada,Malayalam,Beginner,2025-05-07T12:45:34
+U000388,ai_focused,AI / Machine Learning,English,Kannada,Advanced,2025-01-23T02:06:08
+U000389,hardware_focused,Hardware / Developer Gear,English,Hindi,Beginner,2025-02-05T15:08:35
+U000390,frontend_focused,Frontend / Web Development,Kannada,Hindi,Beginner,2025-03-12T23:45:35
+U000391,hardware_focused,Hardware / Developer Gear,Tamil,Telugu,Intermediate,2025-03-14T23:59:41
+U000392,cybersecurity_focused,Cybersecurity,Hindi,Malayalam,Advanced,2025-03-11T19:17:32
+U000393,ai_focused,AI / Machine Learning,English,Tamil,Beginner,2025-02-21T22:46:33
+U000394,entertainment_heavy,Entertainment,Telugu,Malayalam,Beginner,2025-03-17T12:18:35
+U000395,backend_focused,Backend Engineering,Kannada,Telugu,Intermediate,2025-04-16T13:43:58
+U000396,hardware_focused,Hardware / Developer Gear,Hindi,Malayalam,Advanced,2025-03-05T16:11:10
+U000397,backend_focused,Backend Engineering,Telugu,Hindi,Intermediate,2025-03-28T10:50:21
+U000398,backend_focused,Backend Engineering,Malayalam,Telugu,Beginner,2025-04-16T10:49:41
+U000399,cybersecurity_focused,Cybersecurity,English,Tamil,Advanced,2025-02-13T23:13:27
+U000400,backend_focused,Backend Engineering,Kannada,Telugu,Beginner,2025-02-14T15:06:22
+U000401,entertainment_heavy,Entertainment,Telugu,Malayalam,Beginner,2025-05-08T14:34:50
+U000402,mixed_interest,Mixed Technology Interests,English,Telugu,Intermediate,2025-02-03T04:34:36
+U000403,mixed_interest,Mixed Technology Interests,Telugu,Bengali,Advanced,2025-04-29T05:57:49
+U000404,backend_focused,Backend Engineering,English,Bengali,Intermediate,2025-03-26T18:33:14
+U000405,hardware_focused,Hardware / Developer Gear,English,Tamil,Advanced,2025-03-13T07:13:49
+U000406,ai_focused,AI / Machine Learning,Hindi,Malayalam,Intermediate,2025-03-07T11:12:18
+U000407,cybersecurity_focused,Cybersecurity,English,Hindi,Intermediate,2025-01-23T10:43:07
+U000408,frontend_focused,Frontend / Web Development,Telugu,English,Advanced,2025-04-10T04:46:57
+U000409,cybersecurity_focused,Cybersecurity,Hindi,Bengali,Beginner,2025-03-14T10:19:28
+U000410,hardware_focused,Hardware / Developer Gear,Tamil,Telugu,Intermediate,2025-04-10T17:11:56
+U000411,ai_focused,AI / Machine Learning,Telugu,Bengali,Intermediate,2025-05-10T09:48:27
+U000412,ai_focused,AI / Machine Learning,English,Hindi,Beginner,2025-03-08T04:25:28
+U000413,frontend_focused,Frontend / Web Development,English,Bengali,Intermediate,2025-01-13T08:39:11
+U000414,backend_focused,Backend Engineering,Hindi,English,Intermediate,2025-03-16T23:33:33
+U000415,entertainment_heavy,Entertainment,English,Tamil,Intermediate,2025-05-02T13:04:26
+U000416,entertainment_heavy,Entertainment,Tamil,Hindi,Intermediate,2025-01-01T11:12:17
+U000417,mixed_interest,Mixed Technology Interests,Hindi,Malayalam,Advanced,2025-01-12T02:43:29
+U000418,mixed_interest,Mixed Technology Interests,Kannada,Malayalam,Intermediate,2025-02-01T12:16:11
+U000419,mixed_interest,Mixed Technology Interests,Hindi,English,Advanced,2025-01-03T06:52:49
+U000420,mixed_interest,Mixed Technology Interests,Telugu,Bengali,Beginner,2025-05-03T04:10:33
+U000421,entertainment_heavy,Entertainment,Hindi,English,Beginner,2025-01-09T14:18:40
+U000422,mixed_interest,Mixed Technology Interests,English,Telugu,Advanced,2025-05-10T18:13:52
+U000423,mixed_interest,Mixed Technology Interests,Telugu,Hindi,Beginner,2025-04-15T13:27:38
+U000424,mixed_interest,Mixed Technology Interests,Tamil,Hindi,Advanced,2025-05-02T08:56:41
+U000425,backend_focused,Backend Engineering,Malayalam,Bengali,Intermediate,2025-03-09T23:52:20
+U000426,entertainment_heavy,Entertainment,Hindi,Malayalam,Beginner,2025-05-11T13:09:34
+U000427,ai_focused,AI / Machine Learning,Telugu,English,Advanced,2025-02-09T06:17:52
+U000428,backend_focused,Backend Engineering,Hindi,Telugu,Beginner,2025-01-02T23:34:41
+U000429,entertainment_heavy,Entertainment,English,Malayalam,Advanced,2025-03-07T15:27:34
+U000430,hardware_focused,Hardware / Developer Gear,Tamil,Telugu,Beginner,2025-05-04T10:32:31
+U000431,ai_focused,AI / Machine Learning,Telugu,Malayalam,Beginner,2025-04-02T12:31:25
+U000432,mixed_interest,Mixed Technology Interests,Tamil,Telugu,Intermediate,2025-03-05T18:48:17
+U000433,hardware_focused,Hardware / Developer Gear,English,Malayalam,Intermediate,2025-04-06T06:41:55
+U000434,hardware_focused,Hardware / Developer Gear,English,Bengali,Intermediate,2025-03-08T02:27:12
+U000435,ai_focused,AI / Machine Learning,Telugu,Tamil,Intermediate,2025-01-12T13:08:51
+U000436,backend_focused,Backend Engineering,English,Telugu,Intermediate,2025-02-06T16:20:27
+U000437,hardware_focused,Hardware / Developer Gear,Hindi,Malayalam,Beginner,2025-01-17T10:20:36
+U000438,cybersecurity_focused,Cybersecurity,Tamil,Bengali,Beginner,2025-04-11T14:55:31
+U000439,frontend_focused,Frontend / Web Development,English,Kannada,Beginner,2025-01-11T14:23:31
+U000440,mixed_interest,Mixed Technology Interests,English,Telugu,Beginner,2025-05-27T16:24:08
+U000441,mixed_interest,Mixed Technology Interests,Kannada,Bengali,Intermediate,2025-02-24T23:55:17
+U000442,backend_focused,Backend Engineering,Hindi,Tamil,Beginner,2025-05-01T06:42:03
+U000443,frontend_focused,Frontend / Web Development,English,Malayalam,Beginner,2025-05-19T08:20:29
+U000444,mixed_interest,Mixed Technology Interests,English,Kannada,Intermediate,2025-04-30T02:32:40
+U000445,cybersecurity_focused,Cybersecurity,English,Tamil,Beginner,2025-04-29T15:10:14
+U000446,mixed_interest,Mixed Technology Interests,English,Hindi,Intermediate,2025-03-03T12:33:11
+U000447,entertainment_heavy,Entertainment,Tamil,Bengali,Beginner,2025-03-05T02:32:08
+U000448,cybersecurity_focused,Cybersecurity,Malayalam,Bengali,Intermediate,2025-05-09T14:37:48
+U000449,ai_focused,AI / Machine Learning,English,Malayalam,Intermediate,2025-04-18T22:28:25
+U000450,hardware_focused,Hardware / Developer Gear,Telugu,Tamil,Intermediate,2025-04-17T07:23:55
+U000451,hardware_focused,Hardware / Developer Gear,English,Malayalam,Advanced,2025-03-18T05:47:56
+U000452,entertainment_heavy,Entertainment,Telugu,Tamil,Beginner,2025-03-24T05:36:19
+U000453,frontend_focused,Frontend / Web Development,Telugu,Tamil,Beginner,2025-04-03T13:03:21
+U000454,mixed_interest,Mixed Technology Interests,Telugu,Bengali,Advanced,2025-03-17T14:23:06
+U000455,backend_focused,Backend Engineering,Kannada,Malayalam,Beginner,2025-01-14T18:20:24
+U000456,frontend_focused,Frontend / Web Development,Malayalam,Hindi,Beginner,2025-04-13T10:45:36
+U000457,ai_focused,AI / Machine Learning,Telugu,Malayalam,Beginner,2025-03-23T10:23:23
+U000458,cybersecurity_focused,Cybersecurity,Telugu,Bengali,Beginner,2025-05-26T18:40:17
+U000459,frontend_focused,Frontend / Web Development,English,Telugu,Intermediate,2025-01-14T15:35:03
+U000460,ai_focused,AI / Machine Learning,English,Telugu,Intermediate,2025-03-27T09:21:56
+U000461,backend_focused,Backend Engineering,Bengali,English,Intermediate,2025-01-09T16:52:29
+U000462,backend_focused,Backend Engineering,English,Hindi,Intermediate,2025-02-12T03:21:39
+U000463,ai_focused,AI / Machine Learning,English,Telugu,Intermediate,2025-05-15T15:31:00
+U000464,cybersecurity_focused,Cybersecurity,Telugu,Hindi,Advanced,2025-02-14T19:33:42
+U000465,mixed_interest,Mixed Technology Interests,Malayalam,Telugu,Intermediate,2025-04-19T18:15:57
+U000466,backend_focused,Backend Engineering,Kannada,Malayalam,Intermediate,2025-04-28T08:17:44
+U000467,entertainment_heavy,Entertainment,English,Tamil,Advanced,2025-01-11T16:05:38
+U000468,mixed_interest,Mixed Technology Interests,Telugu,Hindi,Intermediate,2025-05-10T02:34:58
+U000469,hardware_focused,Hardware / Developer Gear,English,Telugu,Intermediate,2025-02-03T02:11:27
+U000470,entertainment_heavy,Entertainment,Bengali,English,Advanced,2025-01-19T22:27:04
+U000471,backend_focused,Backend Engineering,English,Hindi,Beginner,2025-03-09T00:14:44
+U000472,hardware_focused,Hardware / Developer Gear,English,Hindi,Beginner,2025-05-16T19:09:35
+U000473,mixed_interest,Mixed Technology Interests,English,Bengali,Advanced,2025-02-05T13:20:01
+U000474,hardware_focused,Hardware / Developer Gear,English,Tamil,Intermediate,2025-04-27T14:48:11
+U000475,mixed_interest,Mixed Technology Interests,English,Malayalam,Beginner,2025-01-09T10:50:04
+U000476,mixed_interest,Mixed Technology Interests,Kannada,Telugu,Beginner,2025-05-14T00:59:38
+U000477,cybersecurity_focused,Cybersecurity,Tamil,English,Beginner,2025-02-19T15:32:56
+U000478,entertainment_heavy,Entertainment,Telugu,Tamil,Beginner,2025-01-11T23:58:35
+U000479,entertainment_heavy,Entertainment,English,Bengali,Beginner,2025-03-10T21:25:45
+U000480,cybersecurity_focused,Cybersecurity,English,Bengali,Intermediate,2025-03-06T13:52:18
+U000481,entertainment_heavy,Entertainment,Tamil,Bengali,Beginner,2025-05-02T20:57:26
+U000482,ai_focused,AI / Machine Learning,English,Tamil,Beginner,2025-01-28T22:12:05
+U000483,cybersecurity_focused,Cybersecurity,English,Telugu,Intermediate,2025-05-28T02:26:15
+U000484,entertainment_heavy,Entertainment,English,Bengali,Beginner,2025-02-22T22:21:00
+U000485,backend_focused,Backend Engineering,English,Kannada,Beginner,2025-04-20T03:58:33
+U000486,frontend_focused,Frontend / Web Development,English,Hindi,Beginner,2025-04-05T22:22:32
+U000487,entertainment_heavy,Entertainment,English,Telugu,Advanced,2025-04-18T11:00:32
+U000488,entertainment_heavy,Entertainment,Bengali,English,Intermediate,2025-01-10T20:07:11
+U000489,mixed_interest,Mixed Technology Interests,Tamil,Telugu,Beginner,2025-05-05T08:16:29
+U000490,ai_focused,AI / Machine Learning,English,Kannada,Advanced,2025-04-26T04:57:01
+U000491,entertainment_heavy,Entertainment,Malayalam,English,Beginner,2025-03-28T12:47:38
+U000492,hardware_focused,Hardware / Developer Gear,English,Tamil,Intermediate,2025-04-28T07:36:09
+U000493,entertainment_heavy,Entertainment,Hindi,English,Beginner,2025-04-16T16:06:16
+U000494,entertainment_heavy,Entertainment,Hindi,Bengali,Advanced,2025-04-03T04:42:49
+U000495,ai_focused,AI / Machine Learning,English,Telugu,Intermediate,2025-05-29T23:59:44
+U000496,frontend_focused,Frontend / Web Development,Hindi,English,Advanced,2025-05-20T08:44:00
+U000497,mixed_interest,Mixed Technology Interests,Tamil,Malayalam,Beginner,2025-03-20T18:14:19
+U000498,cybersecurity_focused,Cybersecurity,Hindi,English,Intermediate,2025-04-26T07:59:23
+U000499,frontend_focused,Frontend / Web Development,Telugu,Tamil,Intermediate,2025-05-30T08:33:53
+U000500,ai_focused,AI / Machine Learning,English,Telugu,Advanced,2025-03-26T02:11:10
+TRAP_JAVA_BACKEND,backend_focused,Software Engineering / Backend,English,Hindi,Intermediate,2025-02-01T00:00:00
+TRAP_MULTILINGUAL,ai_focused,AI / Machine Learning,Telugu,English,Beginner,2025-03-01T00:00:00
+TRAP_ENTERTAINMENT_HEAVY,mixed_interest,Programming / DSA (masked by heavy entertainment consumption),English,Tamil,Intermediate,2025-01-15T00:00:00

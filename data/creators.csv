@@ -1,0 +1,101 @@
+creator_id,creator_name,handle,primary_topics,language,technical_quality,educational_value,credibility_score,average_engagement
+CR000001,Meera Rao,meera.rao760,Laravel|PyTorch,Hindi,0.616,0.581,0.569,0.53
+CR000002,Meera Verma,meera.verma759,PHP|Backend|REST,English,0.314,0.35,0.0,0.133
+CR000003,Aarav Reddy,aarav.reddy224,Caching,Tamil-English,0.636,0.646,0.351,0.271
+CR000004,Aarav Menon,aarav.menon204,Movies|Lifestyle|Cloud,Bengali,0.433,0.431,0.221,0.725
+CR000005,Neha Gupta,neha.gupta604,Python|Spring Boot,Bengali,0.196,0.307,0.23,0.408
+CR000006,Arjun Iyer,arjun.iyer160,Terraform,Telugu,0.249,0.298,0.172,0.198
+CR000007,Ishaan Patel,ishaan.patel100,Linux|Software Engineering,Kannada,0.515,0.389,0.453,0.317
+CR000008,Vihaan Naidu,vihaan.naidu471,Scala|Elasticsearch|Swift,Hindi-English,0.525,0.514,0.726,0.555
+CR000009,Priya Verma,priya.verma634,Web Development|Express.js,Telugu,0.26,0.273,0.2,0.762
+CR000010,Vihaan Verma,vihaan.verma234,Swift|Next.js,Telugu,0.802,0.681,0.702,0.493
+CR000011,Karthik Iyer,karthik.iyer465,GraphQL|Spring Boot|Nginx,Malayalam,0.355,0.25,0.289,0.568
+CR000012,Rohan Verma,rohan.verma274,Music|Comedy|Kotlin,Tamil-English,0.548,0.497,0.388,0.303
+CR000013,Kavya Menon,kavya.menon747,Spring Boot,Telugu-English,0.563,0.275,0.558,0.162
+CR000014,Karthik Iyer,karthik.iyer948,Memes|Cybersecurity|PyTorch,Kannada-English,0.407,0.578,0.557,0.669
+CR000015,Arjun Rao,arjun.rao235,Redis,Bengali,0.285,0.136,0.172,0.483
+CR000016,Sai Reddy,sai.reddy217,Redis|TensorFlow|Movies,Telugu-English,0.17,0.032,0.48,0.28
+CR000017,Karthik Verma,karthik.verma470,AWS,Hindi,0.848,0.607,0.885,0.328
+CR000018,Neha Naidu,neha.naidu575,AWS|Mobile Development|REST,Tamil-English,0.539,0.437,0.585,0.555
+CR000019,Karthik Nair,karthik.nair225,Load Balancing,Telugu-English,0.697,0.551,0.854,0.704
+CR000020,Ishaan Rao,ishaan.rao882,Vue,Kannada-English,0.35,0.217,0.187,0.325
+CR000021,Kavya Verma,kavya.verma433,Rust|DSA|Elasticsearch,Tamil-English,0.28,0.374,0.109,0.152
+CR000022,Vikram Menon,vikram.menon258,Java|Music|SQL,Kannada-English,0.335,0.406,0.32,0.475
+CR000023,Anjali Iyer,anjali.iyer788,Terraform|SQL|Kubernetes,Bengali,0.79,0.657,0.821,0.592
+CR000024,Kavya Gupta,kavya.gupta4,AWS|Caching|FastAPI,Hindi-English,0.504,0.581,0.607,0.348
+CR000025,Meera Verma,meera.verma306,Caching|Software Engineering|.NET,Hindi,0.757,0.721,0.749,0.213
+CR000026,Divya Sharma,divya.sharma553,Python|Frontend|Git,Telugu-English,0.227,0.39,0.539,0.528
+CR000027,Aarav Reddy,aarav.reddy952,MongoDB|Svelte,English,0.239,0.334,0.242,0.572
+CR000028,Neha Chowdhury,neha.chowdhury970,Swift,Telugu-English,0.557,0.687,0.49,0.161
+CR000029,Ishaan Menon,ishaan.menon785,Ruby,Kannada-English,0.267,0.422,0.121,0.126
+CR000030,Pooja Menon,pooja.menon170,Deep Learning|Software Engineering,Bengali,0.813,1.0,0.527,0.287
+CR000031,Rohan Menon,rohan.menon774,Memes|.NET|MongoDB,Bengali,0.686,0.716,0.566,0.457
+CR000032,Divya Gupta,divya.gupta922,System Design|Scala|Laravel,Tamil,0.899,0.876,1.0,0.537
+CR000033,Ishaan Nair,ishaan.nair22,DevOps|Next.js|Backend,Tamil,0.252,0.387,0.313,0.435
+CR000034,Aarav Reddy,aarav.reddy725,Go|Next.js|Rust,English,0.523,0.715,0.405,0.513
+CR000035,Arjun Reddy,arjun.reddy527,GCP,Kannada-English,0.502,0.698,0.506,0.553
+CR000036,Pooja Kumar,pooja.kumar553,Web Development,Tamil-English,0.585,0.462,1.0,0.373
+CR000037,Pooja Kumar,pooja.kumar804,HLD|Express.js,Telugu,0.499,0.51,0.364,0.573
+CR000038,Meera Verma,meera.verma442,REST|HLD,Telugu-English,0.685,0.722,0.584,0.269
+CR000039,Vihaan Verma,vihaan.verma670,Dart|Go|APIs,Malayalam,0.488,0.38,0.445,0.263
+CR000040,Meera Kumar,meera.kumar197,Generative AI,Telugu-English,0.708,0.756,0.543,0.287
+CR000041,Ananya Patel,ananya.patel188,Data Structures|Laravel,Telugu,0.694,0.728,0.697,0.53
+CR000042,Vikram Menon,vikram.menon101,Movies,Hindi-English,0.572,0.703,0.609,0.805
+CR000043,Aarav Reddy,aarav.reddy949,Django,Bengali,0.125,0.176,0.5,0.637
+CR000044,Pooja Gupta,pooja.gupta219,Go|Django,Bengali,0.082,0.259,0.0,0.623
+CR000045,Aarav Patel,aarav.patel272,Docker|REST,Hindi-English,0.696,0.703,0.633,0.105
+CR000046,Pooja Sharma,pooja.sharma195,TensorFlow|Go,Tamil-English,0.868,1.0,0.916,0.539
+CR000047,Anjali Rao,anjali.rao766,Go|TypeScript,Tamil-English,0.562,0.708,0.86,0.391
+CR000048,Pooja Menon,pooja.menon942,Spring Boot|Go|Load Balancing,Telugu,0.168,0.276,0.071,0.846
+CR000049,Kavya Reddy,kavya.reddy610,Gaming,Tamil,0.904,0.891,0.879,0.322
+CR000050,Karthik Reddy,karthik.reddy965,Laravel|Mobile Development|Frontend,English,0.313,0.456,0.224,0.373
+CR000051,Lakshmi Reddy,lakshmi.reddy430,Mobile Development|Networking|AI/ML,Malayalam,0.354,0.199,0.365,0.064
+CR000052,Sai Kumar,sai.kumar686,Redis|Svelte|AWS,Bengali,0.562,0.529,0.415,0.53
+CR000053,Ananya Verma,ananya.verma661,Databases|Redis,Telugu,0.023,0.0,0.193,0.056
+CR000054,Aarav Gupta,aarav.gupta637,Dart|Kotlin|Generative AI,Tamil,0.914,0.945,0.877,0.479
+CR000055,Rahul Iyer,rahul.iyer136,Rust|Laravel,Malayalam,0.112,0.244,0.0,0.217
+CR000056,Priya Sharma,priya.sharma449,Celebrity Fiction|PostgreSQL|Career,Kannada-English,0.761,0.554,0.378,0.767
+CR000057,Rahul Rao,rahul.rao684,PostgreSQL|Cricket|R,Hindi,0.723,0.65,0.557,0.278
+CR000058,Sai Reddy,sai.reddy912,DevOps,Hindi,0.37,0.234,0.417,0.364
+CR000059,Sai Iyer,sai.iyer620,Terraform,Tamil,0.694,0.776,0.581,0.461
+CR000060,Sai Menon,sai.menon501,TypeScript|PHP,Kannada-English,0.396,0.147,0.953,0.182
+CR000061,Sneha Iyer,sneha.iyer46,Jenkins,Hindi,0.268,0.181,0.489,0.899
+CR000062,Sai Sharma,sai.sharma760,DevOps|Celebrity Fiction,Bengali,0.276,0.185,0.374,0.588
+CR000063,Anjali Rao,anjali.rao115,Memes,Hindi,0.348,0.285,0.0,0.297
+CR000064,Anjali Rao,anjali.rao855,Mobile Development|DevOps,Hindi,0.838,0.785,0.522,0.284
+CR000065,Sneha Sharma,sneha.sharma43,GraphQL|JavaScript,Malayalam,0.251,0.423,0.353,0.564
+CR000066,Rohan Verma,rohan.verma256,R|Kafka|Cybersecurity,Bengali,0.402,0.274,0.704,0.321
+CR000067,Lakshmi Naidu,lakshmi.naidu159,Spring Boot,Hindi,0.448,0.301,0.363,0.194
+CR000068,Sneha Rao,sneha.rao184,Jenkins|HLD|Football,Tamil,0.828,0.641,0.862,0.435
+CR000069,Sai Sharma,sai.sharma807,R|Elasticsearch|C#,Telugu-English,0.181,0.2,0.537,0.619
+CR000070,Neha Kumar,neha.kumar837,Linux|MongoDB,Tamil,0.334,0.257,0.316,0.512
+CR000071,Neha Rao,neha.rao676,APIs,Malayalam,0.705,0.641,0.875,0.318
+CR000072,Sai Reddy,sai.reddy991,Linux|Comedy,Hindi-English,0.78,0.375,0.769,0.259
+CR000073,Karthik Verma,karthik.verma864,Jenkins|C++|SQL,Kannada,0.149,0.158,0.0,0.595
+CR000074,Kavya Chowdhury,kavya.chowdhury986,C#|R,Tamil-English,0.538,0.554,0.816,0.01
+CR000075,Sneha Nair,sneha.nair747,Microservices|Software Engineering,Hindi-English,0.28,0.163,0.208,0.259
+CR000076,Meera Patel,meera.patel922,Express.js|Ktor|JavaScript,Bengali,0.584,0.415,0.604,0.572
+CR000077,Aarav Menon,aarav.menon948,Music|Football|.NET,Malayalam,0.5,0.567,0.829,0.152
+CR000078,Sneha Reddy,sneha.reddy972,Jenkins|Hardware|Redis,Kannada-English,0.379,0.191,0.131,0.492
+CR000079,Meera Naidu,meera.naidu922,Caching|MongoDB,Kannada-English,0.94,1.0,1.0,0.435
+CR000080,Sneha Nair,sneha.nair413,Kubernetes|DevOps|Ruby,Tamil,0.775,0.886,0.517,0.375
+CR000081,Sneha Verma,sneha.verma963,Gaming|FastAPI,Tamil-English,0.171,0.242,0.495,0.877
+CR000082,Suresh Iyer,suresh.iyer416,Python|PostgreSQL|Docker,Tamil,0.171,0.062,0.0,0.64
+CR000083,Sneha Chowdhury,sneha.chowdhury622,Git|Data Structures|Distributed Systems,Telugu-English,0.391,0.786,0.41,0.51
+CR000084,Rohan Menon,rohan.menon485,Django|Cricket|Swift,Kannada,0.335,0.23,0.371,0.418
+CR000085,Rahul Verma,rahul.verma649,Jenkins|PHP|Svelte,Kannada-English,0.668,0.814,0.315,0.587
+CR000086,Priya Kumar,priya.kumar826,Angular,English,0.541,0.633,0.798,0.575
+CR000087,Vihaan Kumar,vihaan.kumar487,Kotlin|Databases|LLD,Kannada-English,0.54,0.378,0.751,0.291
+CR000088,Suresh Kumar,suresh.kumar736,DSA|Memory Management|APIs,Tamil,0.746,0.681,0.684,0.501
+CR000089,Ananya Verma,ananya.verma705,R,Bengali,0.553,0.708,0.256,0.316
+CR000090,Neha Sharma,neha.sharma824,AI/ML|Data Structures|TypeScript,Hindi-English,0.339,0.261,0.621,0.761
+CR000091,Neha Reddy,neha.reddy468,Data Structures,Kannada-English,0.21,0.147,0.154,0.245
+CR000092,Rahul Menon,rahul.menon610,Distributed Systems|Career,Hindi-English,0.449,0.597,0.406,0.29
+CR000093,Sneha Menon,sneha.menon457,Algorithms,Telugu-English,0.442,0.346,0.336,0.346
+CR000094,Sai Kumar,sai.kumar861,GCP|AI/ML|Concurrency,Kannada-English,0.805,0.722,0.932,0.689
+CR000095,Neha Iyer,neha.iyer451,Docker,Tamil,0.45,0.493,0.517,0.263
+CR000096,Sai Nair,sai.nair328,Swift|React|Vue,Tamil,0.333,0.255,0.378,0.243
+CR000097,Karthik Naidu,karthik.naidu157,TensorFlow|Rust|LLD,Bengali,0.246,0.334,0.174,0.342
+CR000098,Arjun Menon,arjun.menon478,Go|Node.js,Bengali,0.552,0.759,0.682,0.334
+CR000099,Karthik Chowdhury,karthik.chowdhury969,C|Web Development|Elasticsearch,Telugu-English,0.644,0.673,0.653,0.1
+CR000100,Aarav Nair,aarav.nair306,LLD|Generative AI,Hindi-English,0.398,0.384,0.454,0.464

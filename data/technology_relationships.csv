@@ -1,0 +1,121 @@
+rel_id,source,relationship,target,difficulty,career_relevance
+REL0001,Python,related_to,AI/ML,Beginner,0.9
+REL0002,Python,related_to,Data Science,Beginner,0.85
+REL0003,Python,related_to,Backend,Beginner,0.7
+REL0004,Java,related_to,Spring Boot,Intermediate,0.85
+REL0005,Java,related_to,Backend,Beginner,0.8
+REL0006,Java,related_to,Android,Intermediate,0.6
+REL0007,Spring Boot,related_to,Backend,Intermediate,0.85
+REL0008,REST,prerequisite_for,Microservices,Intermediate,0.8
+REL0009,Docker,related_to,DevOps,Intermediate,0.8
+REL0010,Docker,prerequisite_for,Kubernetes,Intermediate,0.75
+REL0011,AWS,related_to,Cloud,Intermediate,0.9
+REL0012,AWS,related_to,Backend,Intermediate,0.6
+REL0013,System Design,related_to,Backend,Advanced,0.9
+REL0014,System Design,related_to,HLD,Advanced,0.9
+REL0015,DSA,prerequisite_for,System Design,Intermediate,0.7
+REL0016,DSA,related_to,Coding Interviews,Beginner,0.9
+REL0017,JavaScript,related_to,React,Beginner,0.85
+REL0018,React,related_to,Frontend,Intermediate,0.85
+REL0019,TypeScript,related_to,JavaScript,Intermediate,0.7
+REL0020,Rust,related_to,Memory Management,Advanced,0.8
+REL0021,Rust,related_to,Systems Programming,Advanced,0.85
+REL0022,Kubernetes,related_to,Cloud,Advanced,0.75
+REL0023,Cybersecurity,related_to,Networking,Intermediate,0.75
+REL0024,Linux,prerequisite_for,Cybersecurity,Beginner,0.7
+REL0025,Machine Learning,related_to,Deep Learning,Intermediate,0.8
+REL0026,Deep Learning,related_to,Generative AI,Advanced,0.75
+REL0027,SQL,related_to,Databases,Beginner,0.8
+REL0028,Databases,related_to,Backend,Intermediate,0.7
+REL0029,GPUs,related_to,AI/ML,Intermediate,0.6
+REL0030,Hardware,related_to,GPUs,Beginner,0.6
+REL0031,AI/ML,related_to,REST,Intermediate,0.69
+REL0032,Spring Boot,prerequisite_for,Kafka,Intermediate,0.37
+REL0033,Elasticsearch,prerequisite_for,C#,Intermediate,0.69
+REL0034,REST,used_with,OOP,Intermediate,0.53
+REL0035,Next.js,used_with,Data Structures,Intermediate,0.48
+REL0036,GCP,used_with,Azure,Advanced,0.56
+REL0037,Deep Learning,related_to,Microservices,Beginner,0.85
+REL0038,TensorFlow,related_to,Kotlin,Beginner,0.45
+REL0039,Scala,used_with,Rust,Beginner,0.69
+REL0040,JavaScript,prerequisite_for,Cybersecurity,Intermediate,0.8
+REL0041,Java,used_with,Caching,Intermediate,0.56
+REL0042,Blockchain,related_to,Angular,Beginner,0.78
+REL0043,Ruby,prerequisite_for,Kubernetes,Advanced,0.38
+REL0044,Swift,related_to,JavaScript,Advanced,0.49
+REL0045,Memory Management,related_to,DSA,Beginner,0.85
+REL0046,JavaScript,used_with,System Design,Intermediate,0.95
+REL0047,Databases,used_with,HLD,Beginner,0.66
+REL0048,C#,related_to,Docker,Advanced,0.76
+REL0049,React,prerequisite_for,System Design,Advanced,0.45
+REL0050,DSA,related_to,Caching,Intermediate,0.32
+REL0051,Vue,prerequisite_for,Java,Intermediate,0.82
+REL0052,Vue,used_with,Frontend,Beginner,0.34
+REL0053,PyTorch,used_with,Software Engineering,Intermediate,0.8
+REL0054,Java,related_to,Azure,Intermediate,0.72
+REL0055,JavaScript,used_with,Dart,Advanced,0.52
+REL0056,Vue,used_with,React,Beginner,0.8
+REL0057,Frontend,used_with,GraphQL,Beginner,0.84
+REL0058,Kubernetes,prerequisite_for,Django,Beginner,0.41
+REL0059,Data Science,used_with,HLD,Intermediate,0.85
+REL0060,DevOps,used_with,DSA,Advanced,0.48
+REL0061,Hardware,used_with,Docker,Advanced,0.36
+REL0062,OOP,used_with,Node.js,Beginner,0.41
+REL0063,Backend,prerequisite_for,Laravel,Advanced,0.33
+REL0064,C++,related_to,AI/ML,Advanced,0.8
+REL0065,Swift,used_with,TypeScript,Intermediate,0.7
+REL0066,C++,used_with,Ruby,Advanced,0.49
+REL0067,Docker,related_to,Software Engineering,Advanced,0.56
+REL0068,Algorithms,used_with,Azure,Beginner,0.4
+REL0069,Terraform,prerequisite_for,Software Engineering,Beginner,0.52
+REL0070,.NET,used_with,Databases,Intermediate,0.78
+REL0071,HLD,related_to,Design Patterns,Intermediate,0.63
+REL0072,AWS,related_to,Databases,Intermediate,0.38
+REL0073,JavaScript,related_to,Angular,Beginner,0.33
+REL0074,Rust,prerequisite_for,Jenkins,Beginner,0.93
+REL0075,Microservices,used_with,Elasticsearch,Advanced,0.5
+REL0076,Microservices,used_with,Ruby,Intermediate,0.62
+REL0077,Redis,related_to,Ruby,Beginner,0.91
+REL0078,Go,related_to,Algorithms,Beginner,0.68
+REL0079,Git,prerequisite_for,Python,Advanced,0.87
+REL0080,R,used_with,Python,Beginner,0.85
+REL0081,GraphQL,prerequisite_for,Caching,Advanced,0.54
+REL0082,Design Patterns,related_to,Scala,Intermediate,0.33
+REL0083,APIs,prerequisite_for,Web Development,Advanced,0.49
+REL0084,Rust,prerequisite_for,Go,Advanced,0.48
+REL0085,Backend,related_to,Jenkins,Beginner,0.93
+REL0086,PyTorch,prerequisite_for,Cybersecurity,Advanced,0.91
+REL0087,.NET,used_with,DSA,Advanced,0.56
+REL0088,Next.js,related_to,Kotlin,Advanced,0.52
+REL0089,R,prerequisite_for,Kubernetes,Beginner,0.69
+REL0090,Deep Learning,prerequisite_for,Caching,Advanced,0.51
+REL0091,PyTorch,used_with,Jenkins,Intermediate,0.69
+REL0092,Go,used_with,Deep Learning,Intermediate,0.76
+REL0093,Docker,related_to,R,Intermediate,0.52
+REL0094,Career,used_with,Terraform,Intermediate,0.82
+REL0095,Hardware,used_with,C++,Intermediate,0.47
+REL0096,Svelte,related_to,Java,Advanced,0.33
+REL0097,Software Engineering,used_with,OOP,Advanced,0.77
+REL0098,LLD,used_with,.NET,Beginner,0.32
+REL0099,Career,related_to,Web Development,Intermediate,0.5
+REL0100,Django,used_with,Nginx,Beginner,0.57
+REL0101,Jenkins,used_with,R,Advanced,0.34
+REL0102,Caching,related_to,Kubernetes,Advanced,0.51
+REL0103,Software Engineering,prerequisite_for,PHP,Intermediate,0.92
+REL0104,Algorithms,prerequisite_for,C,Advanced,0.53
+REL0105,Swift,prerequisite_for,Jenkins,Beginner,0.92
+REL0106,Blockchain,prerequisite_for,APIs,Beginner,0.91
+REL0107,Docker,used_with,Python,Beginner,0.75
+REL0108,Memory Management,prerequisite_for,Databases,Intermediate,0.66
+REL0109,Blockchain,related_to,Python,Advanced,0.74
+REL0110,LLD,prerequisite_for,PyTorch,Beginner,0.49
+REL0111,HLD,used_with,TensorFlow,Intermediate,0.79
+REL0112,Mobile Development,used_with,DSA,Intermediate,0.91
+REL0113,Linux,related_to,Caching,Advanced,0.78
+REL0114,FastAPI,related_to,Angular,Advanced,0.89
+REL0115,Data Science,related_to,React,Beginner,0.37
+REL0116,Flask,related_to,R,Advanced,0.8
+REL0117,Concurrency,related_to,Vue,Intermediate,0.72
+REL0118,R,used_with,Software Engineering,Beginner,0.79
+REL0119,Python,prerequisite_for,Elasticsearch,Advanced,0.34
+REL0120,Generative AI,related_to,Java,Advanced,0.78
