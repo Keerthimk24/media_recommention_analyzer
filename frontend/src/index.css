@@ -1,61 +1,61 @@
 /* ==========================================================================
-   AI REELS AGENT — MAROON & WHITE GLASSMORPHISM (Burgundy Velvet & Pearl Glass)
-   Rich Maroon / Wine Velvet backdrop with Translucent Frosted Pearl Glassmorphism
+   AI REELS AGENT — ELECTRIC BLUE & SAPPHIRE FROSTED GLASSMORPHISM
+   Deep Midnight Oceanic / Sapphire Backdrop with Frosted Cyan Glassmorphism
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 
 :root {
-  /* Maroon & White Palette */
-  --bg-maroon-deep: #1a0208;
-  --bg-maroon-mid: #2e0510;
-  --bg-maroon-rich: #4a061a;
-  --maroon-primary: #800020;
-  --maroon-light: #a81339;
-  --maroon-vibrant: #e11d48;
-  --rose-glow: #fb7185;
+  /* Electric Blue & Sapphire Palette */
+  --bg-blue-deep: #040914;
+  --bg-blue-mid: #071329;
+  --bg-blue-rich: #0b1e42;
+  --blue-primary: #0284c7;
+  --blue-vibrant: #0ea5e9;
+  --cyan-neon: #00d4ff;
+  --cyan-glow: #38bdf8;
+  --sapphire-accent: #3b82f6;
   --gold-accent: #fbbf24;
   
-  --bg-gradient: radial-gradient(circle at 12% 15%, rgba(225, 29, 72, 0.22) 0%, transparent 45%),
-                radial-gradient(circle at 88% 85%, rgba(128, 0, 32, 0.35) 0%, transparent 50%),
-                radial-gradient(circle at 50% 30%, rgba(255, 255, 255, 0.04) 0%, transparent 60%),
-                linear-gradient(145deg, #1c0309 0%, #2a050f 50%, #150206 100%);
+  --bg-gradient: radial-gradient(circle at 12% 15%, rgba(0, 212, 255, 0.22) 0%, transparent 45%),
+                radial-gradient(circle at 88% 85%, rgba(37, 99, 235, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 50% 30%, rgba(56, 189, 248, 0.06) 0%, transparent 60%),
+                linear-gradient(145deg, #030712 0%, #061328 50%, #030814 100%);
   
-  /* Glassmorphism Tokens (Pearl White on Velvet Maroon) */
-  --glass-bg: rgba(255, 255, 255, 0.08);
-  --glass-card: rgba(255, 255, 255, 0.1);
-  --glass-card-hover: rgba(255, 255, 255, 0.16);
-  --glass-card-subtle: rgba(255, 255, 255, 0.05);
-  --glass-pearl-white: rgba(255, 255, 255, 0.92);
+  /* Glassmorphism Tokens (Frosted Sapphire & Ice Blue Glass) */
+  --glass-bg: rgba(10, 24, 52, 0.6);
+  --glass-card: rgba(14, 32, 68, 0.65);
+  --glass-card-hover: rgba(20, 44, 92, 0.8);
+  --glass-card-subtle: rgba(8, 20, 44, 0.5);
+  --glass-pearl-white: rgba(255, 255, 255, 0.95);
   
-  --glass-border: rgba(255, 255, 255, 0.18);
-  --glass-border-highlight: rgba(255, 255, 255, 0.35);
-  --glass-border-active: rgba(251, 113, 133, 0.6);
+  --glass-border: rgba(56, 189, 248, 0.18);
+  --glass-border-highlight: rgba(0, 212, 255, 0.38);
+  --glass-border-active: rgba(0, 212, 255, 0.7);
   
   --glass-blur: blur(20px);
   --glass-blur-lg: blur(28px);
 
-  /* Shadows with Maroon Depth */
-  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.35), 0 0 1px rgba(255, 255, 255, 0.2);
-  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45), 0 0 1px rgba(255, 255, 255, 0.25);
-  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(168, 19, 57, 0.25);
+  /* Shadows with Deep Oceanic Cyan Glow */
+  --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.45), 0 0 1px rgba(0, 212, 255, 0.25);
+  --shadow-md: 0 8px 26px rgba(0, 0, 0, 0.55), 0 0 1px rgba(0, 212, 255, 0.35);
+  --shadow-lg: 0 16px 44px rgba(0, 0, 0, 0.7), 0 0 24px rgba(0, 212, 255, 0.25);
   
-  --glow-maroon: 0 0 24px rgba(225, 29, 72, 0.35), 0 8px 24px rgba(0, 0, 0, 0.5);
-  --glow-white: 0 0 20px rgba(255, 255, 255, 0.35), 0 4px 12px rgba(0, 0, 0, 0.4);
-  --glow-gold: 0 0 16px rgba(251, 191, 36, 0.35);
+  --glow-cyan: 0 0 24px rgba(0, 212, 255, 0.45), 0 8px 24px rgba(0, 0, 0, 0.6);
+  --glow-sapphire: 0 0 24px rgba(59, 130, 246, 0.45), 0 8px 24px rgba(0, 0, 0, 0.6);
+  --glow-white: 0 0 18px rgba(255, 255, 255, 0.4), 0 4px 12px rgba(0, 0, 0, 0.5);
 
   /* Functional Accents */
-  --cyan: #38bdf8;
+  --cyan: #00d4ff;
   --purple: #c084fc;
   --green: #34d399;
   --amber: #fbbf24;
   --rose: #fb7185;
   
-  /* Text on Maroon & White */
+  /* Text on Electric Blue */
   --text: #ffffff;
-  --text-dim: #fecdd3;
-  --text-muted: #fda4af;
-  --text-maroon: #800020;
+  --text-dim: #bae6fd;
+  --text-muted: #7dd3fc;
   
   --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --mono: 'JetBrains Mono', monospace;
@@ -76,11 +76,11 @@ body {
 ::-webkit-scrollbar { width: 5px; height: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { 
-  background: rgba(255, 255, 255, 0.25); 
+  background: rgba(0, 212, 255, 0.25); 
   border-radius: 99px; 
-  box-shadow: inset 1px 1px 2px rgba(0,0,0,0.4);
+  box-shadow: inset 1px 1px 2px rgba(0,0,0,0.5);
 }
-::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.45); }
+::-webkit-scrollbar-thumb:hover { background: rgba(0, 212, 255, 0.5); }
 
 /* ==========================================================================
    LAYOUT & TOPBAR
@@ -93,18 +93,18 @@ body {
   position: relative;
 }
 
-/* Top bar with frosted pearl glass & maroon glow */
+/* Top bar with frosted sapphire glass & electric cyan glow */
 .topbar {
   display: flex;
   align-items: center;
   padding: 10px 24px;
-  border-bottom: 1px solid var(--glass-border);
+  border-bottom: 1px solid var(--glass-border-highlight);
   gap: 18px;
   flex-shrink: 0;
-  background: rgba(30, 4, 10, 0.75);
+  background: rgba(5, 15, 34, 0.8);
   backdrop-filter: var(--glass-blur-lg);
   -webkit-backdrop-filter: var(--glass-blur-lg);
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.15) inset;
+  box-shadow: 0 4px 26px rgba(0, 0, 0, 0.6), 0 1px 0 rgba(0, 212, 255, 0.2) inset;
   z-index: 50;
 }
 
@@ -119,13 +119,13 @@ body {
   width: 34px;
   height: 34px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #ffffff 0%, #f43f5e 50%, #800020 100%);
+  background: linear-gradient(135deg, #00d4ff 0%, #3b82f6 50%, #1d4ed8 100%);
   color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 16px;
-  box-shadow: 0 0 16px rgba(244, 63, 94, 0.5), var(--shadow-sm);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.6), var(--shadow-sm);
   border: 1px solid rgba(255, 255, 255, 0.6);
   transition: transform 0.2s ease;
 }
@@ -138,16 +138,16 @@ body {
   font-size: 0.96rem;
   font-weight: 800;
   letter-spacing: -0.4px;
-  background: linear-gradient(135deg, #ffffff 40%, #fed7aa 100%);
+  background: linear-gradient(135deg, #ffffff 40%, #7dd3fc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+  text-shadow: 0 0 14px rgba(0, 212, 255, 0.4);
 }
 
 .topbar-nav {
   display: flex;
   gap: 4px;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(4, 10, 24, 0.5);
   border: 1px solid var(--glass-border);
   border-radius: 12px;
   padding: 4px;
@@ -172,15 +172,15 @@ body {
 
 .nav-btn:hover { 
   color: #ffffff;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 212, 255, 0.1);
 }
 
 .nav-btn.active {
-  background: rgba(255, 255, 255, 0.92);
-  color: #800020;
+  background: rgba(255, 255, 255, 0.95);
+  color: #0369a1;
   border-color: #ffffff;
   font-weight: 800;
-  box-shadow: 0 0 16px rgba(255, 255, 255, 0.4), var(--shadow-sm);
+  box-shadow: 0 0 18px rgba(0, 212, 255, 0.5), var(--shadow-sm);
 }
 
 .topbar-right {
@@ -191,7 +191,7 @@ body {
 }
 
 .user-select {
-  background: rgba(46, 5, 16, 0.85);
+  background: rgba(7, 20, 44, 0.85);
   color: #ffffff;
   border: 1px solid var(--glass-border-highlight);
   border-radius: 10px;
@@ -208,8 +208,8 @@ body {
 }
 
 .user-select:hover, .user-select:focus {
-  border-color: rgba(255, 255, 255, 0.7);
-  box-shadow: 0 0 14px rgba(255, 255, 255, 0.3);
+  border-color: #00d4ff;
+  box-shadow: 0 0 16px rgba(0, 212, 255, 0.4);
 }
 
 .conf-badge {
@@ -229,7 +229,7 @@ body {
   padding: 6px 14px;
   border: 1px solid var(--glass-border-highlight);
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 212, 255, 0.12);
   color: #ffffff;
   font-family: var(--font);
   font-size: 0.74rem;
@@ -241,9 +241,9 @@ body {
 }
 
 .db-btn:hover { 
-  background: rgba(255, 255, 255, 0.25);
-  border-color: #ffffff;
-  box-shadow: var(--glow-white);
+  background: rgba(0, 212, 255, 0.25);
+  border-color: #00d4ff;
+  box-shadow: var(--glow-cyan);
   transform: translateY(-1px);
 }
 
@@ -262,7 +262,7 @@ body {
   min-height: 0;
   overflow: hidden;
   gap: 1px;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(0, 212, 255, 0.08);
 }
 
 /* Column headers */
@@ -283,14 +283,14 @@ body {
 }
 
 .col-label.past { color: var(--text-muted); }
-.col-label.present { color: #ffffff; text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
-.col-label.future { color: var(--rose-glow); text-shadow: 0 0 10px rgba(251, 113, 133, 0.5); }
+.col-label.present { color: #00d4ff; text-shadow: 0 0 12px rgba(0, 212, 255, 0.6); }
+.col-label.future { color: #60a5fa; text-shadow: 0 0 12px rgba(96, 165, 250, 0.6); }
 
 .col-count {
   font-size: 0.65rem;
   color: var(--text-dim);
   font-family: var(--mono);
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(0, 212, 255, 0.12);
   padding: 2px 7px;
   border-radius: 6px;
   border: 1px solid var(--glass-border);
@@ -305,7 +305,7 @@ body {
   flex-direction: column;
   border-right: 1px solid var(--glass-border);
   min-height: 0;
-  background: rgba(26, 3, 9, 0.5);
+  background: rgba(5, 14, 32, 0.55);
   backdrop-filter: var(--glass-blur);
 }
 
@@ -326,31 +326,31 @@ body {
   border-radius: 14px;
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(14, 32, 68, 0.55);
   border: 1px solid var(--glass-border);
   box-shadow: var(--shadow-sm);
   backdrop-filter: var(--glass-blur);
 }
 
 .history-item:hover {
-  background: rgba(255, 255, 255, 0.14);
-  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(20, 46, 96, 0.75);
+  border-color: rgba(0, 212, 255, 0.4);
   transform: translateX(2px);
   box-shadow: var(--shadow-md);
 }
 
 .history-item.active {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 241, 242, 0.95) 100%);
-  border-color: #ffffff;
-  box-shadow: 0 0 16px rgba(255, 255, 255, 0.35), var(--shadow-md);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(224, 242, 254, 0.95) 100%);
+  border-color: #00d4ff;
+  box-shadow: 0 0 18px rgba(0, 212, 255, 0.4), var(--shadow-md);
 }
 
 .history-item.active .history-title {
-  color: #800020;
+  color: #0369a1;
 }
 
 .history-item.active .history-meta {
-  color: #9f1239;
+  color: #0284c7;
 }
 
 .history-index {
@@ -371,10 +371,10 @@ body {
 }
 
 .history-item.active .history-index {
-  background: linear-gradient(135deg, #800020, #a81339);
+  background: linear-gradient(135deg, #0284c7, #0369a1);
   color: #ffffff;
-  border-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 2px 8px rgba(128, 0, 32, 0.4);
+  border-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.5);
 }
 
 .history-info {
@@ -411,19 +411,19 @@ body {
   font-weight: 700;
   padding: 1px 7px;
   border-radius: 5px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 212, 255, 0.08);
   border: 1px solid var(--glass-border);
   color: var(--text-dim);
 }
 
 .signal-dot.positive { 
   background: rgba(52, 211, 153, 0.18); 
-  border-color: rgba(52, 211, 153, 0.4);
+  border-color: rgba(52, 211, 153, 0.45);
   color: #34d399; 
 }
 .signal-dot.negative { 
   background: rgba(251, 113, 133, 0.18); 
-  border-color: rgba(251, 113, 133, 0.4);
+  border-color: rgba(251, 113, 133, 0.45);
   color: #fb7185; 
 }
 
@@ -436,7 +436,7 @@ body {
   flex-direction: column;
   border-right: 1px solid var(--glass-border);
   min-height: 0;
-  background: rgba(35, 4, 12, 0.5);
+  background: rgba(7, 18, 40, 0.55);
   backdrop-filter: var(--glass-blur);
 }
 
@@ -449,9 +449,9 @@ body {
   gap: 14px;
 }
 
-/* Reel card in present view with Maroon & Pearl Glass */
+/* Reel card in present view with Frosted Blue Glass */
 .reel-display {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(14, 32, 68, 0.65);
   backdrop-filter: var(--glass-blur-lg);
   border: 1px solid var(--glass-border-highlight);
   border-radius: 20px;
@@ -462,7 +462,7 @@ body {
 }
 
 .reel-screen {
-  background: linear-gradient(145deg, #180207, #2d040e);
+  background: linear-gradient(145deg, #020712, #071733);
   padding: 22px;
   min-height: 180px;
   display: flex;
@@ -495,15 +495,15 @@ body {
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #ffffff, #fb7185, #e11d48);
+  background: linear-gradient(90deg, #00d4ff, #38bdf8, #3b82f6);
   border-radius: 99px;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 12px rgba(0, 212, 255, 0.9);
   transition: width 0.15s linear;
 }
 
 .reel-bottom {
   padding: 16px 18px;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(4, 10, 24, 0.4);
 }
 
 .reel-creator {
@@ -537,11 +537,11 @@ body {
   box-shadow: var(--shadow-sm);
 }
 
-.tag-lang { background: rgba(255, 255, 255, 0.15); color: #ffffff; border: 1px solid rgba(255, 255, 255, 0.4); }
-.tag-tech { background: rgba(128, 0, 32, 0.4); color: var(--text-dim); border: 1px solid var(--glass-border); }
-.tag-intent { background: rgba(251, 113, 133, 0.2); color: #fb7185; border: 1px solid rgba(251, 113, 133, 0.4); }
+.tag-lang { background: rgba(0, 212, 255, 0.18); color: #00d4ff; border: 1px solid rgba(0, 212, 255, 0.45); }
+.tag-tech { background: rgba(59, 130, 246, 0.2); color: var(--text-dim); border: 1px solid var(--glass-border); }
+.tag-intent { background: rgba(192, 132, 252, 0.2); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.4); }
 
-/* Engagement buttons with Maroon & White Glass */
+/* Engagement buttons with Electric Blue Glass */
 .engagement-row {
   display: flex;
   gap: 8px;
@@ -555,7 +555,7 @@ body {
   padding: 8px 15px;
   border: 1px solid var(--glass-border-highlight);
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(14, 32, 68, 0.6);
   color: #ffffff;
   font-family: var(--font);
   font-size: 0.78rem;
@@ -567,9 +567,9 @@ body {
 }
 
 .eng-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: #ffffff;
-  box-shadow: var(--glow-white);
+  background: rgba(0, 212, 255, 0.2);
+  border-color: #00d4ff;
+  box-shadow: var(--glow-cyan);
   transform: translateY(-1px);
 }
 
@@ -579,21 +579,21 @@ body {
 
 .eng-btn.on { 
   background: rgba(255, 255, 255, 0.95);
-  color: #800020;
+  color: #0284c7;
   border-color: #ffffff;
-  box-shadow: 0 0 14px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 16px rgba(0, 212, 255, 0.6);
 }
 .eng-btn.liked { 
   background: rgba(255, 255, 255, 0.95);
   color: #e11d48;
   border-color: #ffffff;
-  box-shadow: 0 0 14px rgba(225, 29, 72, 0.5);
+  box-shadow: 0 0 16px rgba(225, 29, 72, 0.6);
 }
 .eng-btn.saved { 
   background: rgba(255, 255, 255, 0.95);
   color: #d97706;
   border-color: #ffffff;
-  box-shadow: 0 0 14px rgba(217, 119, 6, 0.5);
+  box-shadow: 0 0 16px rgba(217, 119, 6, 0.6);
 }
 .eng-btn.skip-btn { 
   border-color: rgba(251, 113, 133, 0.4); 
@@ -604,9 +604,9 @@ body {
   border-color: #f43f5e;
 }
 
-/* AI Analysis card with Maroon & White Glass */
+/* AI Analysis card with Electric Blue Glass */
 .analysis-card {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(14, 32, 68, 0.65);
   backdrop-filter: var(--glass-blur);
   border: 1px solid var(--glass-border-highlight);
   border-radius: 18px;
@@ -627,9 +627,9 @@ body {
 .analysis-interest {
   font-size: 1.06rem;
   font-weight: 800;
-  color: #ffffff;
+  color: #00d4ff;
   margin-bottom: 8px;
-  text-shadow: 0 0 14px rgba(255, 255, 255, 0.4);
+  text-shadow: 0 0 14px rgba(0, 212, 255, 0.45);
 }
 
 .analysis-evidence {
@@ -637,9 +637,9 @@ body {
   color: var(--text-dim);
   line-height: 1.55;
   padding: 10px 14px;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(4, 10, 24, 0.45);
   border-radius: 12px;
-  border-left: 3px solid #ffffff;
+  border-left: 3px solid #00d4ff;
   border: 1px solid var(--glass-border);
 }
 
@@ -651,7 +651,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 0;
-  background: rgba(40, 5, 14, 0.5);
+  background: rgba(9, 22, 50, 0.55);
   backdrop-filter: var(--glass-blur);
 }
 
@@ -664,22 +664,22 @@ body {
   gap: 14px;
 }
 
-/* Primary Recommended reel card with Frosted Pearl Glass & Velvet Glow */
+/* Primary Recommended reel card with Frosted Sapphire Glass & Neon Glow */
 .rec-card {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.16) 0%, rgba(128, 0, 32, 0.35) 100%);
+  background: linear-gradient(135deg, rgba(20, 48, 102, 0.75) 0%, rgba(10, 26, 60, 0.85) 100%);
   backdrop-filter: var(--glass-blur-lg);
-  border: 1px solid rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(0, 212, 255, 0.45);
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: var(--glow-maroon);
+  box-shadow: var(--glow-cyan);
   position: relative;
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rec-card:hover {
   transform: translateY(-2px);
-  border-color: #ffffff;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.35), var(--shadow-lg);
+  border-color: #00d4ff;
+  box-shadow: 0 0 32px rgba(0, 212, 255, 0.5), var(--shadow-lg);
 }
 
 .rec-card-header {
@@ -692,11 +692,11 @@ body {
 .rec-card-label {
   font-size: 0.72rem;
   font-family: var(--mono);
-  color: #ffffff;
+  color: #00d4ff;
   text-transform: uppercase;
   letter-spacing: 0.8px;
   font-weight: 800;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.7);
 }
 
 .rec-card-body {
@@ -718,7 +718,7 @@ body {
   align-items: center;
 }
 
-/* Category Badges in Maroon & White Glass */
+/* Category Badges in Electric Blue Glass */
 .cat-badge {
   padding: 4px 11px;
   border-radius: 8px;
@@ -730,7 +730,7 @@ body {
   box-shadow: var(--shadow-sm);
 }
 
-.cat-badge[data-cat="Cloud"] { background: rgba(56, 189, 248, 0.2); border: 1px solid rgba(56, 189, 248, 0.6); color: #38bdf8; }
+.cat-badge[data-cat="Cloud"] { background: rgba(0, 212, 255, 0.2); border: 1px solid rgba(0, 212, 255, 0.6); color: #00d4ff; }
 .cat-badge[data-cat="HLD"] { background: rgba(52, 211, 153, 0.2); border: 1px solid rgba(52, 211, 153, 0.6); color: #34d399; }
 .cat-badge[data-cat="Backend"] { background: rgba(20, 184, 166, 0.2); border: 1px solid rgba(20, 184, 166, 0.6); color: #2dd4bf; }
 .cat-badge[data-cat="DSA"] { background: rgba(251, 191, 36, 0.2); border: 1px solid rgba(251, 191, 36, 0.6); color: #fbbf24; }
@@ -755,13 +755,13 @@ body {
   color: var(--text-dim);
   line-height: 1.55;
   padding: 10px 14px;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(4, 10, 24, 0.45);
   border-radius: 12px;
-  border-left: 3px solid #ffffff;
+  border-left: 3px solid #00d4ff;
   border: 1px solid var(--glass-border);
 }
 
-/* Feedback Row with Maroon & White Action Buttons */
+/* Feedback Row with Electric Blue Action Buttons */
 .feedback-section {
   margin-top: 14px;
   padding-top: 12px;
@@ -778,7 +778,7 @@ body {
   padding: 7px 14px;
   border: 1px solid var(--glass-border-highlight);
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(14, 32, 68, 0.6);
   color: #ffffff;
   font-family: var(--font);
   font-size: 0.74rem;
@@ -793,9 +793,9 @@ body {
 }
 
 .fb-btn:hover {
-  background: rgba(255, 255, 255, 0.25);
-  border-color: #ffffff;
-  box-shadow: var(--glow-white);
+  background: rgba(0, 212, 255, 0.25);
+  border-color: #00d4ff;
+  box-shadow: var(--glow-cyan);
   transform: translateY(-1px);
 }
 
@@ -813,7 +813,7 @@ body {
   flex-direction: column;
   gap: 6px;
   padding: 12px 16px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(14, 32, 68, 0.6);
   backdrop-filter: var(--glass-blur);
   border: 1px solid var(--glass-border);
   border-radius: 14px;
@@ -823,27 +823,27 @@ body {
 }
 
 .alt-item:hover {
-  background: rgba(255, 255, 255, 0.16);
-  border-color: rgba(255, 255, 255, 0.45);
+  background: rgba(20, 48, 102, 0.8);
+  border-color: rgba(0, 212, 255, 0.5);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
 
 .alt-rank {
-  color: #ffffff;
+  color: #00d4ff;
   font-family: var(--mono);
   font-size: 0.74rem;
   font-weight: 800;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0 8px rgba(0, 212, 255, 0.6);
 }
 
-/* Learning Journey progression track with Pearl White Stepper */
+/* Learning Journey progression track with Electric Cyan Stepper */
 .journey-strip {
   display: flex;
   align-items: center;
   gap: 6px;
   padding: 10px 14px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(14, 32, 68, 0.6);
   backdrop-filter: var(--glass-blur);
   border: 1px solid var(--glass-border);
   border-radius: 14px;
@@ -861,7 +861,7 @@ body {
   color: var(--text-muted);
   font-family: var(--mono);
   font-weight: 700;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(4, 10, 24, 0.4);
 }
 
 .journey-step.done { 
@@ -871,10 +871,10 @@ body {
 }
 .journey-step.now { 
   background: rgba(255, 255, 255, 0.95); 
-  border-color: #ffffff; 
-  color: #800020; 
+  border-color: #00d4ff; 
+  color: #0284c7; 
   font-weight: 800;
-  box-shadow: 0 0 16px rgba(255, 255, 255, 0.4), var(--shadow-sm);
+  box-shadow: 0 0 16px rgba(0, 212, 255, 0.5), var(--shadow-sm);
 }
 .journey-step.later { opacity: 0.45; }
 
@@ -919,7 +919,7 @@ body {
   padding: 7px 14px;
   border: 1px solid var(--glass-border-highlight);
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(14, 32, 68, 0.6);
   color: #ffffff;
   cursor: pointer;
   font-size: 0.76rem;
@@ -933,9 +933,9 @@ body {
 }
 
 .graph-toolbar-btns button:hover {
-  background: rgba(255, 255, 255, 0.25);
-  border-color: #ffffff;
-  box-shadow: var(--glow-white);
+  background: rgba(0, 212, 255, 0.25);
+  border-color: #00d4ff;
+  box-shadow: var(--glow-cyan);
 }
 
 .graph-canvas-wrap {
@@ -943,7 +943,7 @@ body {
   margin: 0 20px 20px;
   border-radius: 20px;
   overflow: hidden;
-  background: rgba(26, 3, 9, 0.75);
+  background: rgba(5, 14, 34, 0.75);
   backdrop-filter: var(--glass-blur-lg);
   border: 1px solid var(--glass-border-highlight);
   box-shadow: var(--shadow-lg);
@@ -1021,7 +1021,7 @@ body {
   padding: 8px 18px;
   border: 1px solid var(--glass-border-highlight);
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(14, 32, 68, 0.6);
   color: #ffffff;
   font-family: var(--font);
   font-size: 0.78rem;
@@ -1036,9 +1036,9 @@ body {
 }
 
 .trap-run-btn:hover { 
-  background: rgba(255, 255, 255, 0.25);
-  border-color: #ffffff;
-  box-shadow: var(--glow-white);
+  background: rgba(0, 212, 255, 0.25);
+  border-color: #00d4ff;
+  box-shadow: var(--glow-cyan);
   transform: translateY(-1px);
 }
 
@@ -1053,7 +1053,7 @@ body {
 }
 
 .trap-card {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(14, 32, 68, 0.6);
   backdrop-filter: var(--glass-blur-lg);
   border: 1px solid var(--glass-border-highlight);
   border-radius: 18px;
@@ -1067,7 +1067,7 @@ body {
 
 .trap-card:hover {
   transform: translateY(-2px);
-  border-color: #ffffff;
+  border-color: #00d4ff;
   box-shadow: var(--shadow-lg);
 }
 
@@ -1098,7 +1098,7 @@ body {
 .trap-detail strong { color: #ffffff; }
 
 .trap-output {
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(4, 10, 24, 0.6);
   padding: 12px;
   border-radius: 12px;
   font-size: 0.68rem;
@@ -1117,7 +1117,7 @@ body {
   padding: 9px;
   border: 1px solid var(--glass-border-highlight);
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(14, 32, 68, 0.6);
   color: #ffffff;
   font-family: var(--font);
   font-size: 0.76rem;
@@ -1134,19 +1134,19 @@ body {
 }
 
 .trap-inspect-btn:hover { 
-  background: rgba(255, 255, 255, 0.25);
-  border-color: #ffffff;
-  box-shadow: var(--glow-white);
+  background: rgba(0, 212, 255, 0.25);
+  border-color: #00d4ff;
+  box-shadow: var(--glow-cyan);
 }
 
 /* ==========================================================================
-   MODAL WITH MAROON & WHITE GLASS
-   ========================================================================= */
+   MODAL WITH ELECTRIC BLUE GLASS
+   ========================================================================== */
 
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(20, 2, 7, 0.75);
+  background: rgba(3, 7, 18, 0.75);
   backdrop-filter: var(--glass-blur-lg);
   -webkit-backdrop-filter: var(--glass-blur-lg);
   display: flex;
@@ -1158,9 +1158,9 @@ body {
 .modal-card {
   width: 100%;
   max-width: 500px;
-  background: linear-gradient(145deg, rgba(46, 5, 16, 0.95), rgba(26, 3, 9, 0.98));
+  background: linear-gradient(145deg, rgba(14, 32, 68, 0.95), rgba(7, 18, 40, 0.98));
   border: 1px solid var(--glass-border-highlight);
   border-radius: 22px;
   padding: 28px;
-  box-shadow: var(--shadow-lg), 0 0 30px rgba(128, 0, 32, 0.5);
+  box-shadow: var(--shadow-lg), 0 0 32px rgba(0, 212, 255, 0.4);
 }
