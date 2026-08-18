@@ -44,7 +44,12 @@ app.add_middleware(
 )
 
 # Global instances
-DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+_possible_data_dirs = [
+    os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data"),
+    os.path.join(os.getcwd(), "data"),
+    "/var/task/data"
+]
+DATA_DIR = next((d for d in _possible_data_dirs if os.path.exists(d)), _possible_data_dirs[0])
 data_loader = DataLoader(DATA_DIR)
 taxonomy = TaxonomyGraph(os.path.join(DATA_DIR, "technology_relationships.csv"))
 analyzer = MultimodalAnalyzer(taxonomy)
