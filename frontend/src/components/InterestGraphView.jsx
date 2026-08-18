@@ -88,8 +88,8 @@ export default function InterestGraphView({
         ctx.strokeStyle = "rgba(255,255,255,0.4)";
         ctx.stroke();
 
-        ctx.fillStyle = "#e2e8f0";
-        ctx.font = `500 ${n.type === "user" ? "12px" : "10px"} Inter, sans-serif`;
+        ctx.fillStyle = "#0f172a";
+        ctx.font = `600 ${n.type === "user" ? "12px" : "10px"} Inter, sans-serif`;
         ctx.textAlign = "center";
         ctx.fillText(n.label, n.x, n.y + n.r + 14);
 
@@ -115,7 +115,7 @@ export default function InterestGraphView({
       {/* Top Toolbar with active user indicator and switcher */}
       <div className="graph-toolbar">
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          <span className="graph-toolbar-title" style={{ fontSize: "0.85rem", fontWeight: 600, color: "#ffffff" }}>
+          <span className="graph-toolbar-title" style={{ fontSize: "0.85rem", fontWeight: 700, color: "#0f172a" }}>
             Latent Interest Graph:{" "}
             <span style={{ color: "var(--cyan)" }}>
               {selectedUserId} {currentUser?.persona ? `(${currentUser.persona})` : ""}
